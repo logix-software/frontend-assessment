@@ -15,10 +15,9 @@ You can find the design specifications on Figma [here](https://www.figma.com/fil
 - Clone the repository and create a branch named after yourself, for example, "John".
 - Install dependencies by running `npm install`.
 - Start the development server with `npm run dev`.
-- Develop the component, passing the correct props and using Tailwind CSS for styling.
-- The component should be responsive and display correctly on all device sizes.
+- Develop the component, passing the correct props and using Tailwind CSS for styling.(The component should be responsive and display correctly on all device sizes.)
 - Fetch the product data from the following endpoint: [API Endpoint](https://dummyjson.com/products).
-- Render a list of 8 products based on the data retrieved from the API.
+- Render a list of 8 products based on the data retrieved from the API.(If the API does not provide all the data elements shown in the design, hardcode the missing details to match the design.)
 - Ensure that your code is clean, modular, and well-commented.
 
 ## Submission
