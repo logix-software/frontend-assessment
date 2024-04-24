@@ -1,6 +1,6 @@
 # Vue/Tailwind Skills Assessment
 
-Welcome to Logix Software! This exercise is designed to evaluate your experience with Vue.js, Tailwind CSS, and JavaScript by developing a product list feature. You will be replicating a component based on a Figma design and populating it using an API call.
+Welcome to Logix Software! This exercise is designed to evaluate your experience with Vue.js, Tailwind CSS, and JavaScript by developing a product list feature. You will be replicating a component based on a Figma design and populating it using an API call. This project utilizes Nuxt.js, and you can find its documentation [here](https://nuxt.com/).
 
 ## Objective
 
