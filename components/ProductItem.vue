@@ -10,8 +10,11 @@
 <template>
     <div class="product-item bg-lightGray-900 cursor-pointer group relative">
         <section class="h-72 relative">
-            <div v-if="product.discountPercentage" class="product-item__discount">
+            <div v-if="product.discountPercentage && !product.new" class="product-item__badge bg-red-900">
                 <span class="mx-auto">{{ '-' + Math.ceil(product.discountPercentage) + '%' }}</span>
+            </div>
+            <div v-if="product.new" class="product-item__badge bg-green-900">
+                <span class="mx-auto">New</span>
             </div>
             <picture>
                 <img class="h-full w-full object-cover" :src="product.thumbnail">
@@ -54,8 +57,8 @@
 </template>
 
 <style scoped>
-    .product-item__discount {
-        @apply rounded-full h-12 w-12 bg-red-900 text-white font-medium flex items-center;
+    .product-item__badge {
+        @apply rounded-full h-12 w-12 text-white font-medium flex items-center;
         @apply absolute top-4 right-4;
     }
 

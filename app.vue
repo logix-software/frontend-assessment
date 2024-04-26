@@ -10,11 +10,12 @@
 
   function fetchData() {
     pending = true;
+    const newProductsIds = [2, 5, 6];
 
     fetch('https://dummyjson.com/products?limit=8')
             .then(response => response.json())
             .then( (data) => {
-              products.value = data.products;
+              products.value = data.products.map((item, index) => ({...item, new: newProductsIds.includes(index) ? true : false}));
               pending = false;
             });
 
