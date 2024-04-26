@@ -1,29 +1,39 @@
+<script setup>
+    defineProps({
+        product: {
+            type: Object,
+            required: true,
+        }
+    });
+</script>
+
 <template>
-    <div class="product-item bg-lightGray-900 cursor-pointer group relative ">
+    <div class="product-item bg-lightGray-900 cursor-pointer group relative">
         <section class="h-72 relative">
-            <picture>
-                <!-- <source media="(min-width: 900px)" srcset="img-large.jpg">
-                <source media="(min-width: 600px)" srcset="img-medium.jpg"> -->
-                <img class="h-full w-full object-cover" src="https://cdn.dummyjson.com/product-images/5/1.jpg">
-            </picture>
-            <div class="product-item__discount">
-                <span class="mx-auto">-30%</span>
+            <div v-if="product.discountPercentage" class="product-item__discount">
+                <span class="mx-auto">{{ '-' + Math.ceil(product.discountPercentage) + '%' }}</span>
             </div>
+            <picture>
+                <img class="h-full w-full object-cover" :src="product.thumbnail">
+            </picture>
         </section>
 
         <section class="p-4">
-            <span class="discount"></span>
-            <h2>Product 1</h2>
-            <p class="product-item__description text-gray-900 font-medium">Description blah-blah</p>
+            <h2>{{ product.title }}</h2>
+            <p class="product-item__details text-gray-900 font-medium line-clamp-1">{{ product.brand }}</p>
 
             <h3 class="flex flex-row justify-between">
-                <span class="product-item__current-price">Price 123$</span>
-                <span class="product-item__prev-price line-through text-gray-900 font-light">23.000</span>
+                <span class="product-item__current-price">
+                    {{ `Rp ${product.discountPercentage ? Math.ceil(product.price - product.discountPercentage).toLocaleString(): product.price.toLocaleString()}` }}
+                </span>
+                <span v-if="product?.discountPercentage" class="product-item__prev-price line-through text-gray-900 font-light">
+                    {{ `Rp ${product.price.toLocaleString()}` }}
+                </span>
             </h3>
         </section>
 
         <div class="product-item__hover-actions">
-            <button class="bg-white text-gold-900 font-semibold px-14 py-3 w-fit mx-auto">Add to cart</button>
+            <button class="button-main min-w-48 mx-auto">Add to cart</button>
             <div class="actions text-white font-semibold flex flex-row justify-between mt-6">
                 <button class="inline-flex items-center">
                     <img src="../assets/icons/share_icon.svg" alt="Share product" class="icon">
@@ -56,7 +66,3 @@
         @apply flex flex-col justify-center text-center;
     }
 </style>
-
-<script setup>
-
-</script>
