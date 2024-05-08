@@ -6,7 +6,7 @@ Install dependencies by running `npm install`.
 Start the development server with `npm run dev`.
 
 ## 1. Repository Setup
-Start by forking the repository available at [this link](https://github.com/93lucasp/frontend-assessment-A).
+Start by forking this repository
 
 ## 2. Prototype Overview
 You will be developing a prototype based on the design found at Figma ([View Design](https://www.figma.com/file/w029yGy9JL93kzmv15NzX4/padel-dao?type=design&node-id=0%3A1&mode=design&t=iWOS1srC4Nyqe9E2-1)). Aim to achieve a balance between quality and quantity within an 8-hour workday. Focus on demonstrating what can be accomplished in this timeframe rather than completing the entire design.
