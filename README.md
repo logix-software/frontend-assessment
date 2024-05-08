@@ -5,7 +5,7 @@ Welcome to Logix Software! This exercise is designed to evaluate your experience
 Install dependencies by running `npm install`.
 Start the development server with `npm run dev`.
 
-# Instructions for Developing a Prototype
+# Instructions for Developing the Prototype
 
 ## 1. Repository Setup
 Start by forking this repository
