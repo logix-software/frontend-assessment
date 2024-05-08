@@ -38,7 +38,10 @@ The section titled "DOVE SIAMO PRESENTI" features a slider with left and right a
 ## 10. Component Reusability
 Evaluate elements that are repeated throughout the design and create components with their variants to optimize reusability.
 
-## 11. Completion and Review
+## 11. TailwindCSS Adjustments
+If some elements have dimensions that differ slightly from the standard sizes in TailwindCSS, feel free to use the closest TailwindCSS classes. Do not create custom or inline classes for minor pixel differences.
+
+## 12. Completion and Review
 Once you have completed your tasks, create a pull request for the branch you developed on. This will allow for a review of the changes you have made.
 
 **Note**: If anything is unclear or if you have any doubts, please do not hesitate to reach out to me. I’m here to help and ensure you have all the information you need.
