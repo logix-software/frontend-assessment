@@ -30,8 +30,8 @@ const storeContactInfo = (e) => {
                         class=" text-secondary">info@padeldao.com</span>
                 </p>
             </div>
-            <div class="max-w-[639px] mx-auto">
-                <form @submit="storeContactInfo">
+            <div class="">
+                <form @submit="storeContactInfo" class="max-w-[639px] mx-auto">
                     <div class="space-y-9">
                         <form-input input-type="text" id="name" input-placeholder="Inserisci il nome"
                             input-label="Nome del tuo Club" v-model="formContact.clubName" />
@@ -46,7 +46,16 @@ const storeContactInfo = (e) => {
                         </div>
                     </div>
                 </form>
+                <div class="text-lg text-white text-center mt-11">
+                    Cliccando su "Invia la candidatura", accetti la nostra <nuxt-link to="/"
+                        class="text-secondary hover:text-secondary/80">
+                        Privacy Policy
+                    </nuxt-link> e consenti a <br> PadelDao di utilizzare queste informazioni per scopi di marketing.
+                </div>
             </div>
+        </div>
+        <div class="container">
+
         </div>
     </section>
 </template>
