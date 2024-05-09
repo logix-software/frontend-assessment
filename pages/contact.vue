@@ -68,7 +68,7 @@ const storeContactInfo = (e) => {
                         che offriamo.
                     </p>
                     <div class="mt-7">
-                        <button class="btn-black">Downlaod pitch</button>
+                        <button class="btn-secondary">Downlaod pitch</button>
                     </div>
                 </div>
             </div>
