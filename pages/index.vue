@@ -1,7 +1,7 @@
 <template>
     <section class="mt-10 lg:mt-[174px]">
-        <div class="container">
-            <div>
+        <div class="">
+            <div class="container">
                 <h1 class=" text-3xl md:text-5xl lg:text-[86px] text-white text-center  lg:!leading-[96px]">
                     PORTA IL TUO
                     <span class="italic font-medium relative">
@@ -21,8 +21,21 @@
                     di
                     supportarti nell’intera organizzazione.
                 </p>
+                <div class="mt-11 flex items-center justify-center">
+                    <button class="btn-primary--large">
+                        Candidati subito
+                    </button>
+                </div>
             </div>
+            <div class="flex items-center justify-center flex-wrap mt-12">
+                <img src="/hero-img-1.png" alt=" hero img-1" class="-mr-24 mt-20 z-30">
 
+                <img src="/hero-img-2.png" alt=" hero img-1" class="-mr-10 z-20">
+
+                <img src="/hero-img-3.png" alt=" hero img-1" class="-mr-16 mt-10 z-10">
+
+                <img src="/hero-img-4.png" alt=" hero img-1" class="">
+            </div>
         </div>
     </section>
 </template>
