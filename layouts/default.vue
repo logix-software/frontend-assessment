@@ -1,7 +1,7 @@
 <template>
     <app-header />
     <main>main</main>
-    <footer>footer</footer>
+    <app-footer />
 </template>
 
 <script setup>
