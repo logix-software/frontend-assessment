@@ -42,11 +42,11 @@
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link
+                        <button @click="isOpen = true"
                             class="text-white text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
                             to="/">
                             Roadmap
-                        </nuxt-link>
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -65,11 +65,11 @@
                 </button>
             </div>
         </div>
-
     </header>
+    <modals-road-map :isOpen="isOpen" @close-modal="isOpen = false" />
 </template>
 
 <script setup>
 
-
+const isOpen = ref(false);
 </script>
