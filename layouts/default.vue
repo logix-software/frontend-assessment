@@ -1,13 +1,9 @@
 <template>
-    <header>header</header>
+    <app-header />
     <main>main</main>
     <footer>footer</footer>
 </template>
 
-<script>
-export default {
+<script setup>
 
-}
 </script>
-
-<style></style>
