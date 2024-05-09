@@ -42,10 +42,10 @@
   }
 }
 
-.swipper-wrapper {
+/* .swipper-wrapper {
   @apply snap-x;
 }
 
 .swipper-wrapper .swiper-slide {
   @apply snap-center;
-}
+} */
