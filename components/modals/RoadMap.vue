@@ -62,7 +62,7 @@
 
                                 </div>
                             </div>
-                            <div class="text-xs text-black px-12 py-9">
+                            <div class="text-xs text-black px-12 pb-9">
                                 *GLI OBIETTIVI DELINEATI NELLA RODAMAP VERRANNO PERSEGUITI UTILIZZANDO <br>
                                 GRAN PARTE DEL RICAVATO DERIVANTE DALLA VENDITA DELLE MEMBERSHIP CARD (NFT MINT).
                             </div>
