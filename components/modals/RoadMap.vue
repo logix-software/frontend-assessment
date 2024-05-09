@@ -29,7 +29,7 @@
                                 </button>
 
                             </DialogTitle>
-                            <div class="py-9 px-10 overflow-x-auto md:overflow-x-hidden">
+                            <div class="pt-9 px-10 overflow-x-auto md:overflow-x-hidden">
 
                                 <div class="min-h-[288px] border-l border-l-app-bg pl-6 py-14 translate-x-0"
                                     :style="translateFromLeft">
@@ -62,7 +62,7 @@
 
                                 </div>
                             </div>
-                            <div class="text-xs text-black px-12 pb-9">
+                            <div class="text-xs text-black px-12 py-9">
                                 *GLI OBIETTIVI DELINEATI NELLA RODAMAP VERRANNO PERSEGUITI UTILIZZANDO <br>
                                 GRAN PARTE DEL RICAVATO DERIVANTE DALLA VENDITA DELLE MEMBERSHIP CARD (NFT MINT).
                             </div>
