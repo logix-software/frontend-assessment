@@ -41,3 +41,11 @@
     @apply py-6 px-8 inline-flex items-center justify-center gap-2 bg-white hover:bg-white/90 text-app-bg transition duration-200 ease-linear text-3xl font-bold;
   }
 }
+
+.swipper-wrapper {
+  @apply snap-x;
+}
+
+.swipper-wrapper .swiper-slide {
+  @apply snap-center;
+}
