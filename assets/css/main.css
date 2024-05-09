@@ -28,4 +28,7 @@
   .btn-primary {
     @apply bg-primary text-white py-4 px-7 inline-flex items-center justify-center gap-2 text-xl font-medium hover:bg-primary/90 transition duration-200 ease-linear;
   }
+  .btn-black {
+    @apply bg-[#001214] py-5 px-10 inline-flex items-center justify-center gap-2 text-white text-lg font-medium hover:bg-[#001214]/90 transition duration-200 ease-linear;
+  }
 }
