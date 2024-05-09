@@ -1,6 +1,8 @@
 <template>
     <app-header />
-    <main>main</main>
+    <main>
+        <slot />
+    </main>
     <app-footer />
 </template>
 

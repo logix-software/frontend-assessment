@@ -2,9 +2,9 @@
     <footer class="mt-auto py-8">
         <div class="container flex items-end justify-between flex-wrap gap-6">
             <div class="space-y-4">
-                <div>
+                <nuxt-link to="/">
                     <img src="/app-logo.svg" alt="app logo footer">
-                </div>
+                </nuxt-link>
                 <div>
                     <ul class="flex items-center gap-3">
                         <li>
