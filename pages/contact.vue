@@ -6,6 +6,11 @@ const formContact = reactive({
     clubCity: ''
 })
 
+const storeContactInfo = (e) => {
+    e.preventDefault();
+    alert(JSON.stringify(formContact))
+}
+
 </script>
 
 <template>
@@ -26,10 +31,19 @@ const formContact = reactive({
                 </p>
             </div>
             <div class="max-w-[639px] mx-auto">
-                <form action="">
+                <form @submit="storeContactInfo">
                     <div class="space-y-9">
                         <form-input input-type="text" id="name" input-placeholder="Inserisci il nome"
                             input-label="Nome del tuo Club" v-model="formContact.clubName" />
+                        <form-input input-type="text" id="vat" input-placeholder="Inserisci la P.IVA"
+                            input-label="P.IVA/VAT" v-model="formContact.vat" />
+                        <form-input input-type="email" id="email" input-placeholder="Indirizzo email"
+                            input-label="E-mail" v-model="formContact.email" />
+                        <form-input input-type="text" id="club-city" input-placeholder="Città"
+                            input-label="In quale città si trova il tuo Club?" v-model="formContact.clubCity" />
+                        <div>
+                            <button type="submit" class="btn-primary w-full">Invia la candidatura</button>
+                        </div>
                     </div>
                 </form>
             </div>
