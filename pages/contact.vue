@@ -1,4 +1,6 @@
 <script setup>
+
+// state
 const formContact = reactive({
     clubName: '',
     email: '',
@@ -6,10 +8,13 @@ const formContact = reactive({
     clubCity: ''
 })
 
-const storeContactInfo = (e) => {
+// methods
+function storeContactInfo(e) {
     e.preventDefault();
     alert(JSON.stringify(formContact))
 }
+
+
 
 </script>
 
