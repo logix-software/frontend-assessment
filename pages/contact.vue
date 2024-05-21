@@ -1,23 +1,3 @@
-<script setup>
-
-// state
-const formContact = reactive({
-    clubName: '',
-    email: '',
-    vat: '',
-    clubCity: ''
-})
-
-// methods
-function storeContactInfo(e) {
-    e.preventDefault();
-    alert(JSON.stringify(formContact))
-}
-
-
-
-</script>
-
 <template>
     <section class=" mt-20">
         <div class="container space-y-[86px]">
@@ -80,3 +60,19 @@ function storeContactInfo(e) {
         </div>
     </section>
 </template>
+
+<script setup>
+// state
+const formContact = reactive({
+    clubName: '',
+    email: '',
+    vat: '',
+    clubCity: ''
+})
+
+// methods
+function storeContactInfo(e) {
+    e.preventDefault();
+    alert(JSON.stringify(formContact))
+}
+</script>
