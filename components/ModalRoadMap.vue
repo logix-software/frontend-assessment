@@ -1,5 +1,4 @@
 <template>
-
     <TransitionRoot appear :show="isOpen" as="template">
         <Dialog as="div" @close="$emit('closeModal')" class="relative z-50">
             <TransitionChild as="template" enter="duration-300 ease-out" enter-from="opacity-0" enter-to="opacity-100"
@@ -83,6 +82,7 @@ import {
     DialogTitle,
 } from '@headlessui/vue'
 
+// props
 defineProps({
     isOpen: {
         type: Boolean,
@@ -90,15 +90,17 @@ defineProps({
     }
 })
 
+// state
 const tabNo = ref(1)
-
-defineEmits(['closeModal'])
-
 const tabs = Array.from({ length: 5 }, (_, index) => ({
     id: index + 1,
     key: `tab${5 * index + 1}`
 }));
 
+// emits
+defineEmits(['closeModal'])
+
+// computed
 const translateFromLeft = computed(() => ({
     transform: `translateX(${56 * tabNo.value}px)`
 }))
