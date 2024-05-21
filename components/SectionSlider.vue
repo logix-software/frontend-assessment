@@ -67,7 +67,6 @@ function next() {
 }
 
 function initiateSwiperInstance(swiperInstance) {
-    console.log({ swiperInstance })
     swiperRef.value = swiperInstance
 }
 

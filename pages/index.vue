@@ -1,5 +1,5 @@
 <template>
-    <hero-section />
-    <project-section />
-    <slider-section />
+    <section-hero />
+    <section-project />
+    <section-slider />
 </template>
