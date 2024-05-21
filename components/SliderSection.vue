@@ -1,47 +1,3 @@
-<script setup>
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-
-const swiperRef = ref(null)
-const prevBtnRef = ref(null)
-const nextBtnRef = ref(null)
-const modules = [Navigation]
-
-const prev = () => {
-    swiperRef?.value?.slidePrev()
-}
-
-const next = () => {
-    swiperRef.value.slideNext()
-}
-
-const initiateSwiperInstance = (swiperInstance) => {
-    console.log({ swiperInstance })
-    swiperRef.value = swiperInstance
-}
-
-const handleSlideChange = (swp) => {
-    console.log({ swp })
-}
-
-const breakPoints = {
-    '300': {
-        slidesPerView: 1
-    },
-    '550': {
-        slidesPerView: 2
-    },
-    '750': {
-        slidesPerView: 3,
-    },
-    '950': {
-        slidesPerView: 4,
-    }
-}
-</script>
-
 <template>
     <section class="mt-20 lg:mt-[141px]">
         <div class="container">
@@ -74,3 +30,45 @@ const breakPoints = {
         </div>
     </section>
 </template>
+
+<script setup>
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+// state
+const swiperRef = ref(null)
+const prevBtnRef = ref(null)
+const nextBtnRef = ref(null)
+const modules = [Navigation]
+const breakPoints = {
+    '300': {
+        slidesPerView: 1
+    },
+    '550': {
+        slidesPerView: 2
+    },
+    '750': {
+        slidesPerView: 3,
+    },
+    '950': {
+        slidesPerView: 4,
+    }
+}
+
+// methods
+function prev() {
+    swiperRef?.value?.slidePrev()
+}
+
+function next() {
+    swiperRef.value.slideNext()
+}
+
+function initiateSwiperInstance(swiperInstance) {
+    console.log({ swiperInstance })
+    swiperRef.value = swiperInstance
+}
+
+</script>
