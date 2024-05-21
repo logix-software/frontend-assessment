@@ -66,10 +66,11 @@
             </div>
         </div>
     </header>
-    <modals-road-map :isOpen="isOpen" @close-modal="isOpen = false" />
+    <modal-road-map :isOpen="isOpen" @close-modal="isOpen = false" />
 </template>
 
 <script setup>
 
+// state
 const isOpen = ref(false);
 </script>

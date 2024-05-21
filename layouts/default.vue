@@ -10,6 +10,7 @@
 <script setup>
 const showPopUp = ref(false);
 
+// lifcylce
 onMounted(() => {
     setTimeout(() => {
         showPopUp.value = true
