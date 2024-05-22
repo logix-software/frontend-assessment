@@ -80,11 +80,11 @@
                     </p>
                 </div>
                 <div class="flex items-center gap-3 ml-auto">
-                    <button ref="prevBtnRef" @click="prev"
+                    <button @click="prev"
                         class="size-16 inline-flex items-center justify-center text-white hover:bg-primary transition duration-200 ease-linear bg-[#001214]">
                         <icon-arrow-left class="h-[25px] w-[25px]" />
                     </button>
-                    <button ref="nextBtnRef" @click="next"
+                    <button @click="next"
                         class="size-16 inline-flex items-center justify-center text-white hover:bg-primary transition duration-200 ease-linear bg-[#001214]">
                         <icon-arrow-right class="h-[25px] w-[25px]" />
                     </button>
@@ -110,8 +110,6 @@ import 'swiper/css/navigation';
 
 // state
 const swiperRef = ref(null)
-const prevBtnRef = ref(null)
-const nextBtnRef = ref(null)
 const modules = [Navigation]
 const breakPoints = {
     '300': {
