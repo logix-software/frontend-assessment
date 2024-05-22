@@ -24,7 +24,7 @@
                                 </span>
                                 <button @click="$emit('closeModal')"
                                     class="size-12 bg-[#E5E5E5] inline-flex items-center justify-center hover:bg-[#E5E5E5]/90 text-[#00282E]">
-                                    <icon-x />
+                                    <icon-x height="24" width="24" />
                                 </button>
 
                             </DialogTitle>

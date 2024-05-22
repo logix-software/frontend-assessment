@@ -17,7 +17,7 @@
 
                             <button type="button" @click="$emit('closeDrawer')"
                                 class="size-7 inline-flex items-center justify-center bg-gray-100 rounded transition-transform absolute top-2 left-2">
-                                <icon-x />
+                                <icon-x height="24" width="24" />
                             </button>
                             <ul class="flex flex-col items-center justify-center gap-7 mt-10">
                                 <li>
