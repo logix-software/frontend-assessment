@@ -7,37 +7,27 @@
             <div class="py-4 hidden lg:inline">
                 <ul class="flex items-center justify-center gap-7">
                     <li>
-                        <nuxt-link
-                            class="text-white text-[18px] font-semibold hover:text-primary transition duration-200 ease-linear"
-                            to="/">
+                        <nuxt-link class="nav-link" to="/">
                             Il progetto
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link
-                            class="text-white text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
-                            to="/">
+                        <nuxt-link class="nav-link" to="/">
                             Perchè
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link
-                            class="text-white text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
-                            to="/">
+                        <nuxt-link class="nav-link" to="/">
                             Vantaggi
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link
-                            class="text-white text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
-                            to="/">
+                        <nuxt-link class="nav-link" to="/">
                             Cosa chiediamo
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link
-                            class="text-white text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
-                            to="/">
+                        <nuxt-link class="nav-link" to="/">
                             FAQs
                         </nuxt-link>
                     </li>
