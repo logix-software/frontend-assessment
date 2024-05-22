@@ -46,7 +46,7 @@
                                     </nuxt-link>
                                 </li>
                                 <li>
-                                    <button @click="isOpen = true" class="nav-link--mobile" to="/">
+                                    <button @click="$emit('openRoadMapModal')" class="nav-link--mobile" to="/">
                                         Roadmap
                                     </button>
                                 </li>
@@ -73,7 +73,7 @@ import {
 } from '@headlessui/vue'
 
 // emits
-defineEmits(['closeDrawer'])
+defineEmits(['closeDrawer', 'openRoadMapModal'])
 
 //props
 defineProps({
