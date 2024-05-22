@@ -8,6 +8,8 @@
 </template>
 
 <script setup>
+
+// state
 const showPopUp = ref(false);
 
 // lifcylce
