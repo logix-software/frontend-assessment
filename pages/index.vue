@@ -69,12 +69,13 @@
         </div>
     </section>
     <!-- slider section -->
-    <section class="mt-40 lg:mt-[141px]">
+    <section class="mt-32 lg:mt-[141px]">
         <div class="container">
             <div class="flex items-end justify-between gap-4 flex-wrap">
                 <div>
-                    <h4 class=" text-7xl text-white">DOVE SIAMO <span class=" italic font-medium">PRESENTI</span></h4>
-                    <p class="text-white text-3xl">
+                    <h4 class="text-4xl lg:text-7xl text-white">DOVE SIAMO <span
+                            class=" italic font-medium">PRESENTI</span></h4>
+                    <p class="text-white text-xl lg:text-3xl mt-3 lg:mt-0">
                         Già <b>9 padel club</b> hanno scelto di entrare <br> nella community PadelDAO.
                     </p>
                 </div>
