@@ -21,44 +21,32 @@
                             </button>
                             <ul class="flex flex-col items-center justify-center gap-7 mt-10">
                                 <li>
-                                    <nuxt-link
-                                        class="text-app-bg text-[18px] font-semibold hover:text-primary transition duration-200 ease-linear"
-                                        to="/">
+                                    <nuxt-link class="nav-link--mobile" to="/">
                                         Il progetto
                                     </nuxt-link>
                                 </li>
                                 <li>
-                                    <nuxt-link
-                                        class="text-app-bg text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
-                                        to="/">
+                                    <nuxt-link class="nav-link--mobile" to="/">
                                         Perchè
                                     </nuxt-link>
                                 </li>
                                 <li>
-                                    <nuxt-link
-                                        class="text-app-bg text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
-                                        to="/">
+                                    <nuxt-link class="nav-link--mobile" to="/">
                                         Vantaggi
                                     </nuxt-link>
                                 </li>
                                 <li>
-                                    <nuxt-link
-                                        class="text-app-bg text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
-                                        to="/">
+                                    <nuxt-link class="nav-link--mobile" to="/">
                                         Cosa chiediamo
                                     </nuxt-link>
                                 </li>
                                 <li>
-                                    <nuxt-link
-                                        class="text-app-bg text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
-                                        to="/">
+                                    <nuxt-link class="nav-link--mobile" to="/">
                                         FAQs
                                     </nuxt-link>
                                 </li>
                                 <li>
-                                    <button @click="isOpen = true"
-                                        class="text-app-bg text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
-                                        to="/">
+                                    <button @click="isOpen = true" class="nav-link--mobile" to="/">
                                         Roadmap
                                     </button>
                                 </li>
