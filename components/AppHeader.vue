@@ -55,7 +55,7 @@
                     Contattaci
                 </nuxt-link>
             </div>
-            <div class="lg:hidden">
+            <div class="lg:hidden" @click="showDrawer = true">
                 <button class=" size-12 rounded inline-flex items-center justify-center bg-primary text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd"
@@ -67,10 +67,13 @@
         </div>
     </header>
     <modal-road-map :isOpen="isOpen" @close-modal="isOpen = false" />
+    <drawer-navbar :show-drawer="showDrawer" @close-drawer="showDrawer = false" />
 </template>
 
 <script setup>
 
 // state
 const isOpen = ref(false);
+const showDrawer = ref(false);
+
 </script>
