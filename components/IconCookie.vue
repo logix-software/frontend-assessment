@@ -1,13 +1,5 @@
 <script setup>
 defineProps({
-    width: {
-        type: Number || String,
-        default: 48
-    },
-    height: {
-        type: Number || String,
-        default: 48
-    },
     fill: {
         type: String,
         default: 'none'
