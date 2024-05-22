@@ -82,7 +82,6 @@ import {
     TransitionChild,
     Dialog,
     DialogPanel,
-    DialogTitle,
 } from '@headlessui/vue'
 
 // emits

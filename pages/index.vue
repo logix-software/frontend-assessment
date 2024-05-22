@@ -28,12 +28,12 @@
                     </button>
                 </div>
             </div>
-            <div class="flex items-center justify-center flex-wrap mt-12">
-                <img src="/hero-img-1.png" alt=" hero img-1" class="-mr-24 mt-20 z-30">
+            <div class="flex items-center justify-center flex-wrap mt-12 px-4 lg:px-0">
+                <img src="/hero-img-1.png" alt=" hero img-1" class="lg:-mr-24 lg:mt-20 lg:z-30">
 
-                <img src="/hero-img-2.png" alt=" hero img-1" class="-mr-10 z-20">
+                <img src="/hero-img-2.png" alt=" hero img-1" class="lg:-mr-10 lg:z-20">
 
-                <img src="/hero-img-3.png" alt=" hero img-1" class="-mr-16 mt-10 z-10">
+                <img src="/hero-img-3.png" alt=" hero img-1" class="lg:-mr-16 lg:mt-10 lg:z-10">
 
                 <img src="/hero-img-4.png" alt=" hero img-1" class="">
             </div>
