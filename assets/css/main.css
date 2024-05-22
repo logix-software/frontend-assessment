@@ -22,6 +22,9 @@
   .nav-link--mobile {
     @apply text-app-bg text-[18px] font-medium;
   }
+  .footer-link {
+    @apply text-xs font-bold text-white hover:text-primary transition duration-200 ease-linear;
+  }
   .btn-primary {
     @apply bg-primary text-white py-4 px-7 inline-flex items-center justify-center gap-2 text-xl font-medium hover:bg-primary/90 transition duration-200 ease-linear;
   }

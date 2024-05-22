@@ -8,20 +8,17 @@
                 <div>
                     <ul class="flex items-center gap-3">
                         <li>
-                            <nuxt-link to="/"
-                                class="text-xs font-bold text-white hover:text-primary transition duration-200 ease-linear">
+                            <nuxt-link to="/" class="footer-link">
                                 Contact
                             </nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="/"
-                                class="text-xs font-bold text-white hover:text-primary transition duration-200 ease-linear">
+                            <nuxt-link to="/" class="footer-link">
                                 Privacy policy
                             </nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="/"
-                                class="text-xs font-bold text-white hover:text-primary transition duration-200 ease-linear">
+                            <nuxt-link to="/" class="footer-link">
                                 Terms
                             </nuxt-link>
                         </li>
