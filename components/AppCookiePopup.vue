@@ -1,9 +1,3 @@
-<script setup>
-
-
-defineEmits(['hidePopup'])
-
-</script>
 <template>
     <div class="fixed bottom-12 right-12 z-10 flex flex-wrap justify-between bg-white p-7">
         <div class="flex items-center gap-4">
@@ -27,3 +21,10 @@ defineEmits(['hidePopup'])
         </div>
     </div>
 </template>
+
+<script setup>
+
+// emits
+defineEmits(['hidePopup'])
+
+</script>
