@@ -28,7 +28,7 @@
                     </button>
                 </div>
             </div>
-            <div class="flex items-center justify-center flex-wrap mt-12 px-4 lg:px-0">
+            <div class="flex items-center justify-center flex-wrap  mt-12 px-4 lg:px-0">
                 <img src="/hero-img-1.png" alt=" hero img-1" class="lg:-mr-24 lg:mt-20 lg:z-30">
 
                 <img src="/hero-img-2.png" alt=" hero img-1" class="lg:-mr-10 lg:z-20">
@@ -40,7 +40,7 @@
         </div>
     </section>
     <!-- project section -->
-    <section class="mt-20 lg:mt-[188px]">
+    <section class="mt-40 lg:mt-[188px]">
         <div class="container relative">
             <p class="text-white text-3xl md:text-6xl">
                 Il Padel World Club DAO <br>
@@ -69,7 +69,7 @@
         </div>
     </section>
     <!-- slider section -->
-    <section class="mt-20 lg:mt-[141px]">
+    <section class="mt-40 lg:mt-[141px]">
         <div class="container">
             <div class="flex items-end justify-between gap-4 flex-wrap">
                 <div>
