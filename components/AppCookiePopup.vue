@@ -7,7 +7,10 @@ defineEmits(['hidePopup'])
 <template>
     <div class="fixed bottom-12 right-12 z-10 flex flex-wrap justify-between bg-white p-7">
         <div class="flex items-center gap-4">
-            <icon-cookie class="h-[48px] w-[48px]" />
+            <!-- <icon-cookie class="h-[48px] w-[48px]" /> -->
+
+            <!-- we can also use fallback attribute -->
+            <icon-cookie height="48" width="48" />
             <p class="max-w-[]">
                 Utilizziamo i cookie per personalizzare <br>
                 la tua esperienza e analizzare il traffico del sito.
