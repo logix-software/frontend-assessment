@@ -32,9 +32,7 @@
                         </nuxt-link>
                     </li>
                     <li>
-                        <button @click="isOpen = true"
-                            class="text-white text-[18px] font-medium hover:text-primary transition duration-200 ease-linear"
-                            to="/">
+                        <button @click="isOpen = true" class="nav-link" to="/">
                             Roadmap
                         </button>
                     </li>
