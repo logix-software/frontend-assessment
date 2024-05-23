@@ -14,16 +14,16 @@
                         <DialogPanel
                             class="w-full max-w-5xl transform overflow-hidden  bg-white text-left align-top shadow-xl transition-all">
                             <DialogTitle as="div"
-                                class="text-6xl font-medium text-app-bg flex items-center justify-between border-b border-b-[#B2BEC0] py-6 px-10">
+                                class="text-3xl md:text-4xl lg:text-6xl font-medium text-app-bg flex items-center justify-between border-b border-b-[#B2BEC0] py-6 px-10">
                                 <span class="relative">
                                     Roadmap
                                     <span
-                                        class="absolute -bottom-10 -right-40 rotate-[-7.86deg] bg-secondary text-2xl py-2.5 px-4">
+                                        class="absolute -bottom-10 -right-5 md:-right-40 rotate-[-7.86deg] bg-secondary text-base md:text-2xl lg:py-2.5 py-1 lg:px-4 px-1">
                                         STEP BY STEP
                                     </span>
                                 </span>
                                 <button @click="$emit('closeModal')"
-                                    class="size-12 bg-[#E5E5E5] inline-flex items-center justify-center hover:bg-[#E5E5E5]/90 text-[#00282E]">
+                                    class="size-8 md:size-12 bg-[#E5E5E5] inline-flex items-center justify-center hover:bg-[#E5E5E5]/90 text-[#00282E]">
                                     <icon-x height="24" width="24" />
                                 </button>
 
@@ -36,7 +36,7 @@
                                         <span class="text-black text-2xl relative">
                                             MEMBERSHIP NFT
                                             <span
-                                                class=" absolute -right-10 -top-10 rotate-[15deg] bg-[#D3E2E8] py-3 px-4 text-2xl text-app-bg">
+                                                class=" absolute -right-10 -top-10 rotate-[15deg] bg-[#D3E2E8] py-1 md:py-3 px-2 md:px-4 text-xl md:text-2xl text-app-bg">
                                                 UPCOMING
                                             </span>
                                         </span>
@@ -53,7 +53,7 @@
                                     class="mt-8 after:h-[1px] after:hidden after:w-full after:bg-app-bg lg:after:block after:top-1/2 transform -translate-y-1/2 after:absolute after:-z-10">
                                     <div class="flex items-center  pl-11 gap-9">
                                         <button v-for="tab in tabs" :key="tab.id" @click="tabNo = tab.id"
-                                            class="size-6 rounded-full border border-[#00282E] bg-white inline-flex items-center justify-center">
+                                            class="size-6 rounded-full border border-[#00282E] bg-white inline-flex items-center justify-center shrink-0">
                                             <span class="size-3 rounded-full bg-secondary block"
                                                 v-if="tabNo === tab.id" />
                                         </button>
