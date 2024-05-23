@@ -23,6 +23,9 @@ importers:
       vue-router:
         specifier: ^4.3.0
         version: 4.3.2(vue@3.4.27)
+      vue3-marquee:
+        specifier: ^4.2.0
+        version: 4.2.0(vue@3.4.27)
     devDependencies:
       autoprefixer:
         specifier: ^10.4.19
@@ -3626,6 +3629,12 @@ packages:
     resolution: {integrity: sha512-b8/f5NQ5nIEBRTNi6GcPItE4s7kxNHw2AIHLtDp+2QvqdTjVN0FgONwX9cr53jWRgnu+HRLPaWDOR2JPI5MTfQ==}
     peerDependencies:
       vue: ^3.2.0
+
+  vue3-marquee@4.2.0:
+    resolution: {integrity: sha512-Ij4iyvHZjTHMrsPqblpJjq6TYbEFq3utihUllAOfuy0E6W2QKX1vX4E7e7qV/ShmHbCbG0pljcEDq3y0FtzBGw==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vue: ^3.2
 
   vue@3.4.27:
     resolution: {integrity: sha512-8s/56uK6r01r1icG/aEOHqyMVxd1bkYcSe9j8HcKtr/xTOFWvnzIVTehNW+5Yt89f+DLBe4A569pnZLS5HzAMA==}
@@ -7901,6 +7910,10 @@ snapshots:
       vue: 3.4.27
       vue-observe-visibility: 2.0.0-alpha.1(vue@3.4.27)
       vue-resize: 2.0.0-alpha.1(vue@3.4.27)
+
+  vue3-marquee@4.2.0(vue@3.4.27):
+    dependencies:
+      vue: 3.4.27
 
   vue@3.4.27:
     dependencies:

@@ -39,6 +39,7 @@
             </div>
         </div>
     </section>
+
     <!-- project section -->
     <section class="mt-40 lg:mt-[188px]">
         <div class="container relative">
@@ -68,6 +69,19 @@
                 PROGETTO</span>
         </div>
     </section>
+
+    <!-- marque section -->
+    <section class="mt-40 lg:mt-[131px] pt-11 pb-16 border border-white border-l-0 border-r-0 border-opacity-25">
+        <vue3-marquee :clone="true" :duration="20" :direction="'reverse'" :pause-on-hover="true"
+            @onOverflowCleared="alert()" class=" overflow-y-hidden">
+            <div class="text-white font-medium text-4xl md:text-6xl lg:text-[86px] flex items-center gap-5 italic hover:text-[#4D696D] hover:not-italic mr-10 transition duration-200 ease-linear"
+                v-for="text in marqueText" :key="text">
+                {{ text }}
+                <icon-arrow-right-large class="w-12 h-12 md:w-24 md:h-24 lg:w-[91px] lg:h-[84px]" />
+            </div>
+        </vue3-marquee>
+    </section>
+
     <!-- slider section -->
     <section class="mt-32 lg:mt-[141px]">
         <div class="container">
@@ -103,6 +117,7 @@
 </template>
 
 <script setup>
+import { Vue3Marquee } from 'vue3-marquee';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -125,6 +140,7 @@ const breakPoints = {
         slidesPerView: 4,
     }
 }
+const marqueText = ['REVOLUTIONARY', 'INNOVATIVE']
 
 // methods
 function prev() {
