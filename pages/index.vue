@@ -109,6 +109,57 @@
         </div>
     </section>
 
+    <!-- new era section -->
+    <section class="mt-[203px]">
+        <div class="container">
+            <div class="text-white">
+                <h4 class="text-6xl">PadelDAO: <br>
+                    una nuova Era per il tuo Padel Club
+                </h4>
+            </div>
+            <div class="border-[0.5px] border-white/50 mt-20">
+                <!-- top -->
+                <div class="flex flex-col lg:flex-row divide-y lg:divide-y-0 lg:divide-x divide-white/50">
+                    <div class=" basis-7/12">
+                        <div class="py-16 px-8 space-y-2.5">
+                            <p class=" text-5xl text-white font-medium">
+                                Aumento visibilità <br>
+                                & accessi
+                            </p>
+                            <p class=" text-base text-[#99A9AB]">
+                                Offre visibilità all’interno dei canali social,<br>
+                                del sito web e più in generale all'interno <br>
+                                della nostra community.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" basis-6/12 divide-y divide-white/50">
+                        <div
+                            class=" py-6 px-5 space-y-2.5 bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('/study-play.png')] bg-no-repeat bg-right bg-cover md:bg-contain">
+                            <p class=" text-2xl text-white font-semibold">Study & Play</p>
+                            <p class=" text-[#99A9AB] text-base">Offre un'esperienza all-inclusive, comprendente <br>
+                                avanzamento sportivo, soggiorni di alta
+                                qualità, <br> gastronomia e intrattenimento, sottolineando i <br> vantaggi esclusivi per
+                                i
+                                nostri
+                                partner.</p>
+                        </div>
+                        <div
+                            class=" py-6 px-5 space-y-2.5  bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('/clinic-journey.png')] bg-no-repeat bg-right bg-cover md:bg-contain">
+                            <p class=" text-2xl text-white font-semibold">Clinic Journey</p>
+                            <p class=" text-[#99A9AB] text-base">
+                                Offre un'esperienza completa, comprendente <br>
+                                avanzamento sportivo, soggiorni di alta qualità, <br>
+                                gastronomia e intrattenimento, evidenziando <br>
+                                il valore aggiunto per i nostri partner.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- slider section -->
     <section class="mt-32 lg:mt-[141px]">
         <div class="container">
