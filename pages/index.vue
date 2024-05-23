@@ -117,7 +117,7 @@
                     una nuova Era per il tuo Padel Club
                 </h4>
             </div>
-            <div class="border-[0.5px] border-white/50 mt-20">
+            <div class="border-[0.5px] border-white/50 mt-20 divide-y divide-white/50">
                 <!-- top -->
                 <div class="flex flex-col lg:flex-row divide-y lg:divide-y-0 lg:divide-x divide-white/50">
                     <div class=" basis-7/12">
@@ -153,6 +153,59 @@
                                 gastronomia e intrattenimento, evidenziando <br>
                                 il valore aggiunto per i nostri partner.
                             </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- bottom -->
+                <div class=" flex flex-col lg:flex-row divide-white/50 lg:divide-x lg:divide-y-0 divide-y">
+                    <div class=" basis-4/12">
+                        <div class="px-10 pt-8">
+                            <p class="text-white font-semibold text-2xl">
+                                Selezioniamo solo <br>
+                                i migliori club
+                            </p>
+                            <p class="text-base text-[#99A9AB] mt-2.5">
+                                Il nostro obiettivo è selezionare esclusivamente i migliori club al mondo.
+                            </p>
+                            <img src="/group.png" alt=" group" class="mt-7">
+                        </div>
+                    </div>
+                    <div class=" basis-9/12">
+                        <div
+                            class="py-6 text-center text-white font-bold text-[20px] border-b-[0.5px] border-b-white/50">
+                            Iscriversi è completamente
+                            <span>GRATUITO</span>,
+                            nessun tipo di investimento.
+                        </div>
+                        <div class="flex flex-col sm:flex-row sm:divide-x divide-y sm:divide-y-0 divide-white/50">
+                            <div class="basis-6/12 p-7 pb-5 md:pb-0 text-center">
+                                <p class="text-white font-semibold text-2xl">
+                                    Organizzazione eventi
+                                </p>
+                                <p class="text-base text-[#99A9AB] mt-2.5">
+                                    Il team PadelDAO offre un supporto completo
+                                    per la gestione e l'organizzazione degli eventi
+                                    ospitati all’interno dei Club
+                                    Partner.
+                                </p>
+                                <img src="/group-18.png" alt="" class=" mt-8 md:mt-16 mx-auto">
+                            </div>
+                            <div class="basis-6/12">
+                                <div class="text-center p-7">
+                                    <p class="text-white font-semibold text-2xl">
+                                        Personaggi chiave <br>
+                                        del mondo Padel
+                                    </p>
+                                    <p class="text-base text-[#99A9AB] mt-2.5">
+                                        Un gruppo in costante espansione, composto
+                                        da diversi personaggi di spicco del mondo
+                                        del padel, che spazia dagli allenatori agli atleti.
+
+                                    </p>
+                                </div>
+
+                                <img src="/group-19.png" alt="" class="w-full object-cover">
+                            </div>
                         </div>
                     </div>
                 </div>
