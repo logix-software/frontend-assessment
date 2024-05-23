@@ -82,6 +82,33 @@
         </vue3-marquee>
     </section>
 
+    <!-- partner section -->
+    <section class="mt-[156px]">
+        <div class="container ">
+            <div class="bg-[#1A3E43] relative max-w-[1254px] mx-auto py-8">
+                <div
+                    class="text-4xl lg:text-3xl  xl:text-5xl lg:!leading-[56px] pt-[92px] pb-[61px] pl-4 md:pl-[53px] text-[#99A9AB] relative">
+                    <span
+                        class=" rotate-[-3.82deg] bg-secondary absolute -top-5 text-app-bg text-2xl lg:text-3xl px-4 py-2">PERCHÈ
+                        DIVENTARE
+                        PARTNER</span>
+                    Per entrare <b><em class="text-white">a far parte</em></b> <br />
+                    di un <b><em class="text-white">network</em></b> selezionato <br />
+                    di aziende legate al <b><em class="text-white">mondo</em></b> <br />
+                    <b><em class="text-white">del padel</em> e connettersi</b> <br />
+                    con una <b><em class="text-white">community globale</em></b> <br />
+                    di <b><em class="text-white">appassionati, sportivi</em></b>, <br />
+                    <b><em class=" text-white">aziende del settore</em></b> e investitori <br />
+                    <b><em class="text-white">interessati alle innovazioni</em></b> <br>
+                    web3. 
+                </div>
+                <img src="/partner.png" alt=""
+                    class="absolute -right-10 top-1/2 transform -translate-y-1/2 hidden lg:inline " />
+            </div>
+
+        </div>
+    </section>
+
     <!-- slider section -->
     <section class="mt-32 lg:mt-[141px]">
         <div class="container">
