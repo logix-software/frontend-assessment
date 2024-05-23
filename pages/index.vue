@@ -213,6 +213,51 @@
         </div>
     </section>
 
+    <!-- COSA CHIEDIAMO section -->
+    <section class="mt-[167px]">
+        <div class="container space-y-[60px]">
+            <div>
+                <h4 class=" text-4xl md:text-5xl lg:text-7xl text-white text-center">
+                    COSA <span class=" italic font-medium">CHIEDIAMO</span> <br>
+                    AI NOSTRI PARTNER
+                </h4>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
+                <div>
+                    <img src="/gratuito.png" alt="gratuito" class="mx-auto">
+                    <div class="text-center space-y-5 text-white -mt-10">
+                        <p class=" font-medium text-4xl lg:text-5xl">Gratuito</p>
+                        <p class=" md:text-lg">Nessun tipo di investimento <br>
+                            economico.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="/benefit.png" alt="benefit" class="mx-auto">
+                    <div class="text-center space-y-5 text-white -mt-10">
+                        <p class=" font-medium text-4xl lg:text-5xl">Benefit</p>
+                        <p class=" text-lg">
+                            Offire vantaggi esclusivi per i possessori <br>
+                            delle nostre Membership Card.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="/standard.png" alt="standard" class="mx-auto">
+                    <div class="text-center space-y-5 text-white -mt-10">
+                        <p class=" font-medium text-4xl lg:text-5xl">Standard</p>
+                        <p class=" text-lg">
+                            Il rispetto di alti standard <br>
+                            qualitativi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" mt-20 flex items-center justify-center">
+                <button type="button" class="btn-primary">Candidati subito</button>
+            </div>
+        </div>
+    </section>
+
     <!-- slider section -->
     <section class="mt-32 lg:mt-[141px]">
         <div class="container">
