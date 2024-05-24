@@ -3,7 +3,7 @@
     <section class="mt-10 lg:mt-[174px]">
         <div class="">
             <div class="container">
-                <h1 class=" text-3xl md:text-5xl lg:text-[86px] text-white text-center  lg:!leading-[96px]">
+                <h1 class=" text-4xl md:text-5xl lg:text-[86px] text-white text-center  lg:!leading-[96px]">
                     PORTA IL TUO
                     <span class="italic font-medium relative">
                         PADEL CLUB
@@ -110,10 +110,10 @@
     </section>
 
     <!-- new era section -->
-    <section class="mt-[203px]">
+    <section class="mt-24 md:mt-[203px]">
         <div class="container">
             <div class="text-white">
-                <h4 class="text-6xl">PadelDAO: <br>
+                <h4 class="text-4xl md:text-5xl lg:text-6xl">PadelDAO: <br>
                     una nuova Era per il tuo Padel Club
                 </h4>
             </div>
