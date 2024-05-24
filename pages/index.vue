@@ -296,14 +296,14 @@
         <div class="container">
             <div class="py-12 px-9 bg-[#E5E5E5] flex items-start flex-col lg:flex-row">
                 <div>
-                    <h4 class=" font-medium text-6xl text-app-bg">
+                    <h4 class=" font-medium text-4xl md:text-5xl lg:text-6xl text-app-bg">
                         Hai delle <br> domande?
                     </h4>
                 </div>
                 <div class=" divide-y divide-[#B2BEC0] flex-1 lg:ml-16">
                     <details class="py-8 appearance-none group">
                         <summary
-                            class=" gap-4 font-medium text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
+                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Come diventare partner PadelDAO? Ha un costo?
                             <span
                                 class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
@@ -317,7 +317,7 @@
                     </details>
                     <details class="py-8 appearance-none group">
                         <summary
-                            class=" gap-4 font-medium text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
+                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Che cos'è e che vantaggi ha una Membership Card?
                             <span
                                 class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
@@ -331,7 +331,7 @@
                     </details>
                     <details class="py-8 appearance-none group">
                         <summary
-                            class=" gap-4 font-medium text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
+                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Quali servizi offre PadelDAO per i club partner?
                             <span
                                 class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
@@ -345,7 +345,7 @@
                     </details>
                     <details class="py-8 appearance-none group">
                         <summary
-                            class=" gap-4 font-medium text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
+                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Cos’è il Clinic Journey?
                             <span
                                 class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
@@ -359,7 +359,7 @@
                     </details>
                     <details class="py-8 appearance-none group">
                         <summary
-                            class=" gap-4 font-medium text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
+                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Cos’è lo Study & Play?
                             <span
                                 class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
@@ -373,7 +373,7 @@
                     </details>
                     <details class="py-8 appearance-none group">
                         <summary
-                            class=" gap-4 font-medium text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
+                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Altre domande?
                             <span
                                 class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
