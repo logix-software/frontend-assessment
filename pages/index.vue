@@ -171,12 +171,12 @@
                         </div>
                     </div>
                     <div class=" basis-9/12">
-                        <div
-                            class="py-6 text-center text-white font-bold text-[20px] border-b-[0.5px] border-b-white/50">
+                        <p class="py-6 text-center text-white font-bold text-[20px] border-b-[0.5px] border-b-white/50">
                             Iscriversi è completamente
-                            <span>GRATUITO</span>,
-                            nessun tipo di investimento.
-                        </div>
+                            <span
+                                class="bg-[#D3E2E8] text-2xl py-2.5 px-4 text-app-bg transform rotate-[-11.94deg] inline-block">GRATUITO</span>
+                            &nbsp;,nessun tipo di investimento.
+                        </p>
                         <div class="flex flex-col sm:flex-row sm:divide-x divide-y sm:divide-y-0 divide-white/50">
                             <div class="basis-6/12 p-7 pb-5 md:pb-0 text-center">
                                 <p class="text-white font-semibold text-2xl">
