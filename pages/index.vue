@@ -394,11 +394,11 @@
     <section class=" mt-10">
         <div class="container">
             <div class=" bg-secondary pt-20 pb-16 px-10 text-center">
-                <h5 class=" text-5xl text-[#001214]">
+                <h5 class=" text-4xl lg:text-5xl text-[#001214]">
                     SEI PRONTO PER IL <span class=" italic font-medium">PROSSIMO LIVELLO?</span> <br>
                     IL TUO CLUB MERITA DI <span class=" italic font-medium">DISTINGUERSI</span> <br> A LIVELLO GLOBALE.
                 </h5>
-                <p class=" text-3xl text-[#335358] mt-8">
+                <p class=" text-xl lg:text-3xl text-[#335358] mt-8">
                     Organizziamo un incontro per parlare dei dettagli della nostra partnership
                     ed esplorare insieme le possibilità di collaborazione.
                 </p>

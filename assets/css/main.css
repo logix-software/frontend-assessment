@@ -38,6 +38,6 @@
     @apply bg-[#001214] py-5 px-10 inline-flex items-center justify-center gap-2 text-white text-lg font-medium hover:bg-[#001214]/90 transition duration-200 ease-linear;
   }
   .btn-tertiary {
-    @apply py-6 px-8 inline-flex items-center justify-center gap-2 bg-white hover:bg-white/90 text-app-bg transition duration-200 ease-linear text-3xl font-bold;
+    @apply py-4 md:py-5 lg:py-6 px-4 md:px-6 lg:px-8 inline-flex items-center justify-center gap-2 bg-white hover:bg-white/90 text-app-bg transition duration-200 ease-linear text-xl md:text-2xl lg:text-3xl font-bold;
   }
 }
