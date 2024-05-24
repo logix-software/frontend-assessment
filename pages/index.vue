@@ -122,7 +122,7 @@
                 <div class="flex flex-col lg:flex-row divide-y lg:divide-y-0 lg:divide-x divide-white/50">
                     <div class=" basis-7/12">
                         <div class="py-16 px-8 space-y-2.5">
-                            <p class=" text-5xl text-white font-medium">
+                            <p class="text-4xl lg:text-5xl text-white font-medium">
                                 Aumento visibilità <br>
                                 & accessi
                             </p>
@@ -270,21 +270,30 @@
                     </p>
                 </div>
                 <div class="flex items-center gap-3 ml-auto">
-                    <button @click="prev"
+                    <button @click="swiperEl.slidePrev()"
                         class="size-16 inline-flex items-center justify-center text-white hover:bg-primary transition duration-200 ease-linear bg-[#001214]">
                         <icon-arrow-left class="h-[25px] w-[25px]" />
                     </button>
-                    <button @click="next"
+                    <button @click="swiperEl.slideNext()"
                         class="size-16 inline-flex items-center justify-center text-white hover:bg-primary transition duration-200 ease-linear bg-[#001214]">
                         <icon-arrow-right class="h-[25px] w-[25px]" />
                     </button>
                 </div>
             </div>
             <div class="mt-[71px]">
-                <swiper :loop="true" :breakpoints="breakPoints" :slidesPerView="4" :modules="modules" :spaceBetween="18"
-                    class="mySwiper" ref="swiperRef" @swiper="initiateSwiperInstance">
-                    <swiper-slide v-for="n in 10" :key="n">
-                        <img src="/slider-img.png" alt="slider img" class="w-full" />
+                <swiper :slidesPerView="4" :spaceBetween="18" :loop="true" :navigation="true" :modules="modules"
+                    class="mySwiper" @swiper="initializeSwiper">
+                    <swiper-slide v-for="({ badgeTitle, location }, idx) in sliderContents" :key="idx">
+                        <div
+                            class="py-5 px-6 bg-[#001E23] space-y-2.5 bg-[url('/slider-map.png')] bg-no-repeat h-[345px] bg-right-bottom w-full">
+                            <span
+                                class=" inline-block bg-secondary text-app-bg rotate-[-3.27deg] text-2xl lg:text-3xl py-1 px-2"
+                                v-text="badgeTitle" />
+                            <div class=" text-white">
+                                <span class=" text-lg block" v-text="location.title" />
+                                <small class=" text-sm" v-text="location.subTitle" />
+                            </div>
+                        </div>
                     </swiper-slide>
                 </swiper>
             </div>
@@ -413,10 +422,10 @@ import { Vue3Marquee } from 'vue3-marquee';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
+
 
 // state
-const swiperRef = ref(null)
+const swiperEl = ref(null);
 const modules = [Navigation]
 const breakPoints = {
     '300': {
@@ -433,18 +442,48 @@ const breakPoints = {
     }
 }
 const marqueText = ['REVOLUTIONARY', 'INNOVATIVE']
+const sliderContents = [
+    {
+        badgeTitle: 'Yep Club',
+        location: {
+            title: 'Bergamo, Italia',
+            subTitle: 'Albano S. Alessandro'
+        },
+    },
+    {
+        badgeTitle: 'PalaPadel',
+        location: {
+            title: 'Bergamo, Italia',
+            subTitle: 'Seriate'
+        },
+    },
+    {
+        badgeTitle: 'Met Padel',
+        location: {
+            title: 'Brescia',
+            subTitle: 'Italia'
+        },
+    },
+    {
+        badgeTitle: 'Let’s Padel',
+        location: {
+            title: 'Monza, Italia',
+            subTitle: 'Vimercate'
+        },
+    },
+    {
+        badgeTitle: 'Citiesse Club',
+        location: {
+            title: 'Brescia, Italia',
+            subTitle: 'San Felice del Benaco'
+        },
+    },
+]
 
 // methods
-function prev() {
-    swiperRef?.value?.slidePrev()
-}
 
-function next() {
-    swiperRef.value.slideNext()
-}
-
-function initiateSwiperInstance(swiperInstance) {
-    swiperRef.value = swiperInstance
+function initializeSwiper(swiperInstance) {
+    swiperEl.value = swiperInstance
 }
 
 </script>
