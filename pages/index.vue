@@ -281,7 +281,7 @@
                 </div>
             </div>
             <div class="mt-[71px]">
-                <swiper :slidesPerView="4" :spaceBetween="18" :loop="true" :navigation="true" :modules="modules"
+                <swiper :breakpoints="breakPoints" :spaceBetween="18" :loop="true" :navigation="true" :modules="modules"
                     class="mySwiper" @swiper="initializeSwiper">
                     <swiper-slide v-for="({ badgeTitle, location }, idx) in sliderContents" :key="idx">
                         <div
@@ -434,10 +434,10 @@ const breakPoints = {
     '550': {
         slidesPerView: 2
     },
-    '750': {
+    '950': {
         slidesPerView: 3,
     },
-    '950': {
+    '1150': {
         slidesPerView: 4,
     }
 }
@@ -478,10 +478,37 @@ const sliderContents = [
             subTitle: 'San Felice del Benaco'
         },
     },
+    {
+        badgeTitle: 'Yep Club',
+        location: {
+            title: 'Bergamo, Italia',
+            subTitle: 'Albano S. Alessandro'
+        },
+    },
+    {
+        badgeTitle: 'PalaPadel',
+        location: {
+            title: 'Bergamo, Italia',
+            subTitle: 'Seriate'
+        },
+    },
+    {
+        badgeTitle: 'Met Padel',
+        location: {
+            title: 'Brescia',
+            subTitle: 'Italia'
+        },
+    },
+    {
+        badgeTitle: 'Let’s Padel',
+        location: {
+            title: 'Monza, Italia',
+            subTitle: 'Vimercate'
+        },
+    },
 ]
 
 // methods
-
 function initializeSwiper(swiperInstance) {
     swiperEl.value = swiperInstance
 }
