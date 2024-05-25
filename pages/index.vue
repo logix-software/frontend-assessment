@@ -2,7 +2,7 @@
     <!-- hero section -->
     <section class="mt-10 lg:mt-[174px]">
         <div class="">
-            <div class="container">
+            <div class="container" data-aos="zoom-in">
                 <h1 class=" text-4xl md:text-5xl lg:text-[86px] text-white text-center  lg:!leading-[96px]">
                     PORTA IL TUO
                     <span class="italic font-medium relative">
@@ -29,13 +29,16 @@
                 </div>
             </div>
             <div class="flex items-center justify-center flex-wrap  mt-12 px-4 lg:px-0">
-                <img src="/hero-img-1.png" alt=" hero img-1" class="lg:-mr-24 lg:mt-20 lg:z-30">
+                <img src="/hero-img-1.png" alt=" hero img-1" class="lg:-mr-24 lg:mt-20 lg:z-30" data-aos="zoom-in"
+                    data-aos-delay="200">
 
-                <img src="/hero-img-2.png" alt=" hero img-1" class="lg:-mr-10 lg:z-20">
+                <img src="/hero-img-2.png" alt=" hero img-1" class="lg:-mr-10 lg:z-20" data-aos="zoom-in"
+                    data-aos-delay="200*2">
 
-                <img src="/hero-img-3.png" alt=" hero img-1" class="lg:-mr-16 lg:mt-10 lg:z-10">
+                <img src="/hero-img-3.png" alt=" hero img-1" class="lg:-mr-16 lg:mt-10 lg:z-10" data-aos="zoom-in"
+                    data-aos-delay="200*3">
 
-                <img src="/hero-img-4.png" alt=" hero img-1" class="">
+                <img src="/hero-img-4.png" alt=" hero img-1" class="" data-aos="zoom-in" data-aos-delay="200*4">
             </div>
         </div>
     </section>
