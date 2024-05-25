@@ -285,9 +285,9 @@
                     class="mySwiper" @swiper="initializeSwiper">
                     <swiper-slide v-for="({ badgeTitle, location }, idx) in sliderContents" :key="idx">
                         <div
-                            class="py-5 px-6 bg-[#001E23] space-y-2.5 bg-[url('/slider-map.png')] bg-no-repeat h-[345px] bg-right-bottom w-full">
+                            class="py-5 px-6 bg-[#001E23] space-y-2.5 bg-[url('/slider-map.svg')] bg-no-repeat h-[345px] bg-right-bottom w-full">
                             <span
-                                class=" inline-block bg-secondary text-app-bg rotate-[-3.27deg] text-2xl lg:text-3xl py-1 px-2"
+                                class="inline-block bg-secondary text-app-bg rotate-[-3.27deg] text-2xl lg:text-3xl py-1 px-2"
                                 v-text="badgeTitle" />
                             <div class=" text-white">
                                 <span class=" text-lg block" v-text="location.title" />
