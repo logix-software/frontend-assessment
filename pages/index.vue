@@ -30,22 +30,22 @@
             </div>
             <div class="flex items-center justify-center flex-wrap  mt-12 px-4 lg:px-0">
                 <img src="/hero-img-1.png" alt=" hero img-1" class="lg:-mr-24 lg:mt-20 lg:z-30" data-aos="zoom-in"
-                    data-aos-delay="200">
+                    data-aos-delay="50">
 
                 <img src="/hero-img-2.png" alt=" hero img-1" class="lg:-mr-10 lg:z-20" data-aos="zoom-in"
-                    data-aos-delay="200*2">
+                    data-aos-delay="100">
 
                 <img src="/hero-img-3.png" alt=" hero img-1" class="lg:-mr-16 lg:mt-10 lg:z-10" data-aos="zoom-in"
-                    data-aos-delay="200*3">
+                    data-aos-delay="150">
 
-                <img src="/hero-img-4.png" alt=" hero img-1" class="" data-aos="zoom-in" data-aos-delay="200*4">
+                <img src="/hero-img-4.png" alt=" hero img-1" data-aos="zoom-in" data-aos-delay="200">
             </div>
         </div>
     </section>
 
     <!-- project section -->
     <section class="mt-40 lg:mt-[188px]">
-        <div class="container relative">
+        <div class="container relative" data-aos="fade-up">
             <p class="text-white text-3xl md:text-6xl">
                 Il Padel World Club DAO <br>
                 mira a
@@ -88,7 +88,7 @@
     <!-- partner section -->
     <section class="mt-[156px]">
         <div class="container ">
-            <div class="bg-[#1A3E43] relative max-w-[1254px] mx-auto py-8">
+            <div class="bg-[#1A3E43] relative max-w-[1254px] mx-auto py-8" data-aos="fade-up">
                 <div
                     class="text-4xl lg:text-3xl  xl:text-5xl lg:!leading-[56px] pt-[92px] pb-[61px] pl-4 md:pl-[53px] text-[#99A9AB] relative">
                     <span
@@ -226,7 +226,7 @@
                 </h4>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
-                <div>
+                <div data-aos="zoom-in" data-aos-delay="50">
                     <img src="/gratuito.png" alt="gratuito" class="mx-auto">
                     <div class="text-center space-y-5 text-white -mt-10">
                         <p class=" font-medium text-4xl lg:text-5xl">Gratuito</p>
@@ -234,7 +234,7 @@
                             economico.</p>
                     </div>
                 </div>
-                <div>
+                <div data-aos="zoom-in" data-aos-delay="100">
                     <img src="/benefit.png" alt="benefit" class="mx-auto">
                     <div class="text-center space-y-5 text-white -mt-10">
                         <p class=" font-medium text-4xl lg:text-5xl">Benefit</p>
@@ -244,7 +244,7 @@
                         </p>
                     </div>
                 </div>
-                <div>
+                <div data-aos="zoom-in" data-aos-delay="150">
                     <img src="/standard.png" alt="standard" class="mx-auto">
                     <div class="text-center space-y-5 text-white -mt-10">
                         <p class=" font-medium text-4xl lg:text-5xl">Standard</p>
@@ -306,7 +306,7 @@
     <!-- faq section -->
     <section class=" mt-[246px]">
         <div class="container">
-            <div class="py-12 px-9 bg-[#E5E5E5] flex items-start flex-col lg:flex-row">
+            <div class="py-12 px-9 bg-[#E5E5E5] flex items-start flex-col lg:flex-row" data-aos="fade-up">
                 <div>
                     <h4 class=" font-medium text-4xl md:text-5xl lg:text-6xl text-app-bg">
                         Hai delle <br> domande?
@@ -405,7 +405,7 @@
     <!-- cta section -->
     <section class=" mt-10">
         <div class="container">
-            <div class=" bg-secondary pt-20 pb-16 px-10 text-center">
+            <div class=" bg-secondary pt-20 pb-16 px-10 text-center" data-aos="fade-up">
                 <h5 class=" text-4xl lg:text-5xl text-[#001214]">
                     SEI PRONTO PER IL <span class=" italic font-medium">PROSSIMO LIVELLO?</span> <br>
                     IL TUO CLUB MERITA DI <span class=" italic font-medium">DISTINGUERSI</span> <br> A LIVELLO GLOBALE.
