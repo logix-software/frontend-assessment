@@ -13,7 +13,10 @@ export default {
       colors:{
         'primary': '#F3535C',
         'secondary': '#D7FF65',
-        'app-bg': '#00282E'
+        'app-bg': '#00282E',
+        'grayish-blue': '#99A9AB',
+        'deepest-teal': '#001214',
+        'pale-blue': '#D3E2E8',
       }
     },
     container:{

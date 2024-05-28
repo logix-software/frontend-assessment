@@ -15,6 +15,15 @@
   }
 }
 
+@layer utilities {
+  .study-play-bg {
+    @apply bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('~/assets/images/study-play.png')];
+  }
+  .clinic-journey-bg {
+    @apply bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('~/assets/images/clinic-journey.png')];
+  }
+}
+
 @layer components {
   .nav-link {
     @apply text-white text-[18px] font-medium hover:text-primary transition duration-200 ease-linear;
@@ -35,7 +44,7 @@
     @apply bg-primary text-white py-5 px-6 inline-flex items-center justify-center gap-2 text-xl font-medium hover:bg-primary/90 transition duration-200 ease-linear;
   }
   .btn-secondary {
-    @apply bg-[#001214] py-5 px-10 inline-flex items-center justify-center gap-2 text-white text-lg font-medium hover:bg-[#001214]/90 transition duration-200 ease-linear;
+    @apply bg-deepest-teal py-5 px-10 inline-flex items-center justify-center gap-2 text-white text-lg font-medium hover:bg-deepest-teal/90 transition duration-200 ease-linear;
   }
   .btn-tertiary {
     @apply py-4 md:py-5 lg:py-6 px-4 md:px-6 lg:px-8 inline-flex items-center justify-center gap-2 bg-white hover:bg-white/90 text-app-bg transition duration-200 ease-linear text-xl md:text-2xl lg:text-3xl font-bold;

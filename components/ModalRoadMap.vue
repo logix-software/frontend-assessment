@@ -36,7 +36,7 @@
                                         <span class="text-black text-2xl relative">
                                             MEMBERSHIP NFT
                                             <span
-                                                class=" absolute -right-10 -top-10 rotate-[15deg] bg-[#D3E2E8] py-1 md:py-3 px-2 md:px-4 text-xl md:text-2xl text-app-bg">
+                                                class=" absolute -right-10 -top-10 rotate-[15deg] bg-pale-blue py-1 md:py-3 px-2 md:px-4 text-xl md:text-2xl text-app-bg">
                                                 UPCOMING
                                             </span>
                                         </span>

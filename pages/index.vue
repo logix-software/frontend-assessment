@@ -68,7 +68,7 @@
                 la tecnologia web3.
             </p>
             <span
-                class=" text-app-bg bg-[#D3E2E8] px-2 md:px-4 py-2 text-xl md:text-3xl absolute  -top-20 left-6 md:-left-2 rotate-[-5.45deg]">IL
+                class=" text-app-bg bg-pale-blue px-2 md:px-4 py-2 text-xl md:text-3xl absolute  -top-20 left-6 md:-left-2 rotate-[-5.45deg]">IL
                 PROGETTO</span>
         </div>
     </section>
@@ -90,7 +90,7 @@
         <div class="container ">
             <div class="bg-[#1A3E43] relative  py-8" data-aos="fade-up">
                 <div
-                    class="text-4xl lg:text-3xl  xl:text-5xl lg:!leading-[56px] pt-20 pb-16 pl-4 md:pl-14 text-[#99A9AB] relative">
+                    class="text-4xl lg:text-3xl  xl:text-5xl lg:!leading-[56px] pt-20 pb-16 pl-4 md:pl-14 text-grayish-blue relative">
                     <span
                         class=" rotate-[-3.82deg] bg-secondary absolute -top-10 text-app-bg text-lg md:text-xl lg:text-3xl px-4 py-2">PERCHÈ
                         DIVENTARE
@@ -130,7 +130,7 @@
                                 Aumento visibilità <br>
                                 & accessi
                             </p>
-                            <p class=" text-base text-[#99A9AB]">
+                            <p class=" text-base text-grayish-blue">
                                 Offre visibilità all’interno dei canali social,<br>
                                 del sito web e più in generale all'interno <br>
                                 della nostra community.
@@ -138,10 +138,9 @@
                         </div>
                     </div>
                     <div class=" basis-6/12 divide-y divide-white/50">
-                        <div
-                            class=" py-4 px-5 space-y-2.5 bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('~/assets/images/study-play.png')] bg-no-repeat bg-right bg-cover md:bg-contain">
+                        <div class=" py-4 px-5 space-y-2.5 study-play-bg bg-no-repeat bg-right bg-cover md:bg-contain">
                             <p class=" text-2xl text-white font-semibold">Study & Play</p>
-                            <p class=" text-[#99A9AB] text-base">Offre un'esperienza all-inclusive, comprendente <br>
+                            <p class=" text-grayish-blue text-base">Offre un'esperienza all-inclusive, comprendente <br>
                                 avanzamento sportivo, soggiorni di alta
                                 qualità, <br> gastronomia e intrattenimento, sottolineando i <br> vantaggi esclusivi per
                                 i
@@ -149,9 +148,9 @@
                                 partner.</p>
                         </div>
                         <div
-                            class=" py-4 px-5 space-y-2.5  bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('~/assets/images/clinic-journey.png')] bg-no-repeat bg-right bg-cover md:bg-contain">
+                            class=" py-4 px-5 space-y-2.5 clinic-journey-bg bg-no-repeat bg-right bg-cover md:bg-contain">
                             <p class=" text-2xl text-white font-semibold">Clinic Journey</p>
-                            <p class=" text-[#99A9AB] text-base">
+                            <p class=" text-grayish-blue text-base">
                                 Offre un'esperienza completa, comprendente <br>
                                 avanzamento sportivo, soggiorni di alta qualità, <br>
                                 gastronomia e intrattenimento, evidenziando <br>
@@ -168,17 +167,17 @@
                                 Selezioniamo solo <br>
                                 i migliori club
                             </p>
-                            <p class="text-base text-[#99A9AB] mt-2.5">
+                            <p class="text-base text-grayish-blue mt-2.5">
                                 Il nostro obiettivo è selezionare esclusivamente i migliori club al mondo.
                             </p>
                             <img src="~/assets/images/group.png" alt=" group" class="mt-7">
                         </div>
                     </div>
                     <div class=" basis-9/12">
-                        <p class="py-1 text-center text-white font-bold text-lg border-b-[0.5px] border-b-white/50">
+                        <p class="py-1 text-center text-white font-bold text-xl border-b-[0.5px] border-b-white/50">
                             Iscriversi è completamente
                             <span
-                                class="bg-[#D3E2E8] text-2xl py-2.5 px-4 text-app-bg transform rotate-[-11.94deg] inline-block">GRATUITO</span>
+                                class="bg-pale-blue text-2xl py-2.5 px-4 text-app-bg transform rotate-[-11.94deg] inline-block">GRATUITO</span>
                             &nbsp;,nessun tipo di investimento.
                         </p>
                         <div class="flex flex-col sm:flex-row sm:divide-x divide-y sm:divide-y-0 divide-white/50">
@@ -186,7 +185,7 @@
                                 <p class="text-white font-semibold text-2xl">
                                     Organizzazione eventi
                                 </p>
-                                <p class="text-base text-[#99A9AB] mt-2.5">
+                                <p class="text-base text-grayish-blue mt-2.5">
                                     Il team PadelDAO offre un supporto completo
                                     per la gestione e l'organizzazione degli eventi
                                     ospitati all’interno dei Club
@@ -200,7 +199,7 @@
                                         Personaggi chiave <br>
                                         del mondo Padel
                                     </p>
-                                    <p class="text-base text-[#99A9AB] mt-2.5">
+                                    <p class="text-base text-grayish-blue mt-2.5">
                                         Un gruppo in costante espansione, composto
                                         da diversi personaggi di spicco del mondo
                                         del padel, che spazia dagli allenatori agli atleti.
@@ -275,11 +274,11 @@
                 </div>
                 <div class="flex items-center gap-3 ml-auto">
                     <button @click="swiperEl.slidePrev()"
-                        class="size-16 inline-flex items-center justify-center text-white hover:bg-primary transition duration-200 ease-linear bg-[#001214]">
+                        class="size-16 inline-flex items-center justify-center text-white hover:bg-primary transition duration-200 ease-linear bg-deepest-teal">
                         <icon-arrow-left class="h-[25px] w-[25px]" />
                     </button>
                     <button @click="swiperEl.slideNext()"
-                        class="size-16 inline-flex items-center justify-center text-white hover:bg-primary transition duration-200 ease-linear bg-[#001214]">
+                        class="size-16 inline-flex items-center justify-center text-white hover:bg-primary transition duration-200 ease-linear bg-deepest-teal">
                         <icon-arrow-right class="h-[25px] w-[25px]" />
                     </button>
                 </div>
@@ -407,7 +406,7 @@
     <section class=" mt-10">
         <div class="container">
             <div class=" bg-secondary pt-20 pb-16 px-10 text-center" data-aos="fade-up">
-                <h5 class=" text-4xl lg:text-5xl text-[#001214]">
+                <h5 class=" text-4xl lg:text-5xl text-deepest-teal">
                     SEI PRONTO PER IL <span class=" italic font-medium">PROSSIMO LIVELLO?</span> <br>
                     IL TUO CLUB MERITA DI <span class=" italic font-medium">DISTINGUERSI</span> <br> A LIVELLO GLOBALE.
                 </h5>

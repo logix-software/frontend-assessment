@@ -40,7 +40,7 @@
             </div>
         </div>
         <div class="container mt-[105px]">
-            <div class="bg-[#D3E2E8] py-12 flex items-center">
+            <div class="bg-pale-blue py-12 flex items-center">
                 <img src="~/assets/images/contact-cta.png" alt="contact cta" class="p-0 hidden xl:inline" />
                 <div class="pl-8 xl:pl-[97px] pr-4 xl:max-w-[594px]">
                     <h6 class=" text-3xl text-app-bg font-medium">PadelDao Pitch</h6>
