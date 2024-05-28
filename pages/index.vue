@@ -123,7 +123,8 @@
             <div class="border-[0.5px] border-white/50 mt-20 divide-y divide-white/50">
                 <!-- top -->
                 <div class="flex flex-col lg:flex-row divide-y lg:divide-y-0 lg:divide-x divide-white/50">
-                    <div class=" basis-7/12 bg-[url('/galaxy.png')] bg-no-repeat bg-right bg-cover sm:bg-contain">
+                    <div
+                        class=" basis-7/12 bg-[url('~/assets/images/galaxy.png')] bg-no-repeat bg-right bg-cover sm:bg-contain">
                         <div class="px-8 pb-4 lg:pb-0 space-y-2.5 mt-10">
                             <p class="text-4xl lg:text-5xl text-white font-medium">
                                 Aumento visibilità <br>
@@ -138,7 +139,7 @@
                     </div>
                     <div class=" basis-6/12 divide-y divide-white/50">
                         <div
-                            class=" py-4 px-5 space-y-2.5 bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('/study-play.png')] bg-no-repeat bg-right bg-cover md:bg-contain">
+                            class=" py-4 px-5 space-y-2.5 bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('~/assets/images/study-play.png')] bg-no-repeat bg-right bg-cover md:bg-contain">
                             <p class=" text-2xl text-white font-semibold">Study & Play</p>
                             <p class=" text-[#99A9AB] text-base">Offre un'esperienza all-inclusive, comprendente <br>
                                 avanzamento sportivo, soggiorni di alta
@@ -148,7 +149,7 @@
                                 partner.</p>
                         </div>
                         <div
-                            class=" py-4 px-5 space-y-2.5  bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('/clinic-journey.png')] bg-no-repeat bg-right bg-cover md:bg-contain">
+                            class=" py-4 px-5 space-y-2.5  bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('~/assets/images/clinic-journey.png')] bg-no-repeat bg-right bg-cover md:bg-contain">
                             <p class=" text-2xl text-white font-semibold">Clinic Journey</p>
                             <p class=" text-[#99A9AB] text-base">
                                 Offre un'esperienza completa, comprendente <br>
@@ -288,7 +289,7 @@
                     class="mySwiper" @swiper="initializeSwiper">
                     <swiper-slide v-for="({ badgeTitle, location }, idx) in sliderContents" :key="idx">
                         <div
-                            class="py-5 px-6 bg-[#001E23] space-y-2.5 bg-[url('/slider-map.svg')] bg-no-repeat h-[345px] bg-right-bottom w-full">
+                            class="py-5 px-6 bg-[#001E23] space-y-2.5 bg-[url('~/assets/images/slider-map.svg')] bg-no-repeat h-[345px] bg-right-bottom w-full">
                             <span
                                 class="inline-block bg-secondary text-app-bg rotate-[-3.27deg] text-2xl lg:text-3xl py-1 px-2"
                                 v-text="badgeTitle" />
