@@ -14,7 +14,7 @@
                         <DialogPanel
                             class="w-full max-w-5xl transform overflow-hidden  bg-white text-left align-top shadow-xl transition-all">
                             <DialogTitle as="div"
-                                class="text-3xl md:text-4xl lg:text-6xl font-medium text-app-bg flex items-center justify-between border-b border-b-[#B2BEC0] py-6 px-10">
+                                class="text-3xl md:text-4xl lg:text-6xl font-medium text-app-bg flex items-center justify-between border-b border-b-cool-gray py-6 px-10">
                                 <span class="relative">
                                     Roadmap
                                     <span
@@ -23,14 +23,14 @@
                                     </span>
                                 </span>
                                 <button @click="$emit('closeModal')"
-                                    class="size-8 md:size-12 bg-[#E5E5E5] inline-flex items-center justify-center hover:bg-[#E5E5E5]/90 text-[#00282E]">
+                                    class="size-8 md:size-12 bg-light-gray inline-flex items-center justify-center hover:bg-light-gray/90 text-app-bg">
                                     <icon-x height="24" width="24" />
                                 </button>
 
                             </DialogTitle>
                             <div class="pt-9 px-10 overflow-x-auto md:overflow-x-hidden">
 
-                                <div class="min-h-[288px] border-l border-l-app-bg pl-6 py-14 translate-x-0"
+                                <div class="min-h-72 border-l border-l-app-bg pl-6 py-14 translate-x-0"
                                     :style="translateFromLeft">
                                     <div class="space-y-5">
                                         <span class="text-black text-2xl relative">
@@ -40,7 +40,7 @@
                                                 UPCOMING
                                             </span>
                                         </span>
-                                        <p class="text-slate-teal text-base max-w-[371px]">Il primo step prevede la
+                                        <p class="text-slate-teal text-base max-w-96">Il primo step prevede la
                                             creazione
                                             degli NFT
                                             Gen1
@@ -53,7 +53,7 @@
                                     class="mt-8 after:h-[1px] after:hidden after:w-full after:bg-app-bg lg:after:block after:top-1/2 transform -translate-y-1/2 after:absolute after:-z-10">
                                     <div class="flex items-center  pl-11 gap-9">
                                         <button v-for="tab in tabs" :key="tab.id" @click="tabNo = tab.id"
-                                            class="size-6 rounded-full border border-[#00282E] bg-white inline-flex items-center justify-center shrink-0">
+                                            class="size-6 rounded-full border border-app-bg bg-white inline-flex items-center justify-center shrink-0">
                                             <span class="size-3 rounded-full bg-secondary block"
                                                 v-if="tabNo === tab.id" />
                                         </button>
