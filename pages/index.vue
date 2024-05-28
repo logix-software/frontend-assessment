@@ -90,7 +90,7 @@
         <div class="container ">
             <div class="bg-oceanic-blue relative  py-8" data-aos="fade-up">
                 <div
-                    class="text-4xl lg:text-3xl  xl:text-5xl lg:!leading-[56px] pt-20 pb-16 pl-4 md:pl-14 text-grayish-blue relative">
+                    class="text-4xl lg:text-3xl  xl:text-5xl lg:!leading-[56px] pt-14 pb-16 pl-4 md:pl-14 text-grayish-blue relative">
                     <span
                         class=" rotate-[-3.82deg] bg-secondary absolute -top-10 text-app-bg text-lg md:text-xl lg:text-3xl px-4 py-2">PERCHÈ
                         DIVENTARE
