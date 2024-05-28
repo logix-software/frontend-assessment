@@ -8,7 +8,7 @@
                     <span class="italic font-medium relative">
                         PADEL CLUB
                         <span
-                            class=" bg-secondary text-app-bg text-2xl px-4 py-2.5 -top-8 -right-12 hidden md:inline absolute transform rotate-[13.9deg]  my-2 lg:my-0">A
+                            class=" bg-secondary text-app-bg text-2xl px-4 py-2.5 -top-8 -right-12 hidden md:inline absolute transform rotate-[13.9deg]  my-2 lg:my-0 whitespace-nowrap">A
                             COSTO
                             ZERO</span>
                     </span> <br>
