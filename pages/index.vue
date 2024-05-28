@@ -1,6 +1,6 @@
 <template>
     <!-- hero section -->
-    <section class="mt-10 lg:mt-[174px]">
+    <section class="mt-10 lg:mt-44">
         <div class="">
             <div class="container" data-aos="zoom-in">
                 <h1 class=" text-4xl md:text-5xl lg:text-[86px] text-white text-center  lg:!leading-[96px]">
@@ -44,7 +44,7 @@
     </section>
 
     <!-- project section -->
-    <section class="mt-40 lg:mt-[188px]">
+    <section class="mt-40 lg:mt-48">
         <div class="container relative" data-aos="fade-up">
             <p class="text-white text-3xl md:text-6xl">
                 Il Padel World Club DAO <br>
@@ -74,25 +74,25 @@
     </section>
 
     <!-- marque section -->
-    <section class="mt-40 lg:mt-[131px] pt-11 pb-16 border border-white border-l-0 border-r-0 border-opacity-25">
+    <section class="mt-40 lg:mt-32 pt-11 pb-16 border border-white border-l-0 border-r-0 border-opacity-25">
         <vue3-marquee :clone="true" :duration="20" :direction="'reverse'" :pause-on-hover="true"
             @onOverflowCleared="alert()" class=" overflow-y-hidden">
             <div class="text-white font-medium text-4xl md:text-6xl lg:text-[86px] flex items-center gap-5 italic hover:text-[#4D696D] hover:not-italic mr-10 transition duration-200 ease-linear"
                 v-for="text in marqueText" :key="text">
                 {{ text }}
-                <icon-arrow-right-large class="w-12 h-12 md:w-24 md:h-24 lg:w-[91px] lg:h-[84px]" />
+                <icon-arrow-right-large class="w-12 h-12 md:w-24 md:h-24 lg:w-24 lg:h-24" />
             </div>
         </vue3-marquee>
     </section>
 
     <!-- partner section -->
-    <section class="mt-[156px]">
+    <section class="mt-40">
         <div class="container ">
-            <div class="bg-[#1A3E43] relative max-w-[1254px] mx-auto py-8" data-aos="fade-up">
+            <div class="bg-[#1A3E43] relative  py-8" data-aos="fade-up">
                 <div
-                    class="text-4xl lg:text-3xl  xl:text-5xl lg:!leading-[56px] pt-[92px] pb-[61px] pl-4 md:pl-[53px] text-[#99A9AB] relative">
+                    class="text-4xl lg:text-3xl  xl:text-5xl lg:!leading-[56px] pt-20 pb-16 pl-4 md:pl-14 text-[#99A9AB] relative">
                     <span
-                        class=" rotate-[-3.82deg] bg-secondary absolute -top-5 text-app-bg text-2xl lg:text-3xl px-4 py-2">PERCHÈ
+                        class=" rotate-[-3.82deg] bg-secondary absolute -top-10 text-app-bg text-lg md:text-xl lg:text-3xl px-4 py-2">PERCHÈ
                         DIVENTARE
                         PARTNER</span>
                     Per entrare <b><em class="text-white">a far parte</em></b> <br />
@@ -113,7 +113,7 @@
     </section>
 
     <!-- new era section -->
-    <section class="mt-24 md:mt-[203px]">
+    <section class="mt-24 md:mt-52">
         <div class="container">
             <div class="text-white">
                 <h4 class="text-4xl md:text-5xl lg:text-6xl">PadelDAO: <br>
@@ -174,7 +174,7 @@
                         </div>
                     </div>
                     <div class=" basis-9/12">
-                        <p class="py-2 text-center text-white font-bold text-[20px] border-b-[0.5px] border-b-white/50">
+                        <p class="py-1 text-center text-white font-bold text-lg border-b-[0.5px] border-b-white/50">
                             Iscriversi è completamente
                             <span
                                 class="bg-[#D3E2E8] text-2xl py-2.5 px-4 text-app-bg transform rotate-[-11.94deg] inline-block">GRATUITO</span>
@@ -217,8 +217,8 @@
     </section>
 
     <!-- COSA CHIEDIAMO section -->
-    <section class="mt-[167px]">
-        <div class="container space-y-[60px]">
+    <section class="mt-40">
+        <div class="container space-y-14 ">
             <div>
                 <h4 class=" text-4xl md:text-5xl lg:text-7xl text-white text-center">
                     COSA <span class=" italic font-medium">CHIEDIAMO</span> <br>
@@ -262,7 +262,7 @@
     </section>
 
     <!-- slider section -->
-    <section class="mt-32 lg:mt-[141px]">
+    <section class="mt-32 lg:mt-36">
         <div class="container">
             <div class="flex items-end justify-between gap-4 flex-wrap">
                 <div>
@@ -283,7 +283,7 @@
                     </button>
                 </div>
             </div>
-            <div class="mt-[71px]">
+            <div class="mt-16">
                 <swiper :breakpoints="breakPoints" :spaceBetween="18" :loop="true" :navigation="true" :modules="modules"
                     class="mySwiper" @swiper="initializeSwiper">
                     <swiper-slide v-for="({ badgeTitle, location }, idx) in sliderContents" :key="idx">
@@ -304,7 +304,7 @@
     </section>
 
     <!-- faq section -->
-    <section class=" mt-[246px]">
+    <section class="mt-60">
         <div class="container">
             <div class="py-12 px-9 bg-[#E5E5E5] flex items-start flex-col lg:flex-row" data-aos="fade-up">
                 <div>
