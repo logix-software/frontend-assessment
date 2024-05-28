@@ -306,13 +306,13 @@
     <!-- faq section -->
     <section class="mt-60">
         <div class="container">
-            <div class="py-12 px-9 bg-[#E5E5E5] flex items-start flex-col lg:flex-row" data-aos="fade-up">
+            <div class="py-12 px-9 bg-light-gray flex items-start flex-col lg:flex-row" data-aos="fade-up">
                 <div>
                     <h4 class=" font-medium text-4xl md:text-5xl lg:text-6xl text-app-bg">
                         Hai delle <br> domande?
                     </h4>
                 </div>
-                <div class=" divide-y divide-[#B2BEC0] flex-1 lg:ml-16">
+                <div class=" divide-y divide-cool-gray flex-1 lg:ml-16">
                     <details class="py-8 appearance-none group" v-for="faq in faqs" :key="faq.question">
                         <summary
                             class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">

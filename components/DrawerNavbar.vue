@@ -13,7 +13,7 @@
                         enter-to="opacity-100 translate-x-0" leave="duration-200 ease-in"
                         leave-from="opacity-100 translate-x-0" leave-to="opacity-0 translate-x-full">
                         <DialogPanel
-                            class="max-w-md transform overflow-hidden  bg-white p-6 text-left align-middle shadow-xl transition-all h-full w-[300px] ml-auto relative">
+                            class="max-w-md transform overflow-hidden  bg-white p-6 text-left align-middle shadow-xl transition-all h-full  w-80 ml-auto relative">
 
                             <button type="button" @click="$emit('closeDrawer')"
                                 class="size-7 inline-flex items-center justify-center bg-gray-100 rounded transition-transform absolute top-2 left-2">

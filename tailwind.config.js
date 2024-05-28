@@ -19,6 +19,8 @@ export default {
         'pale-blue': '#D3E2E8',
         'slate-teal': '#4D696D',
         'pale-mint': '#FBFFF0',
+        'cool-gray': '#B2BEC0',
+        'light-gray': '#E5E5E5',
       }
     },
     container:{
