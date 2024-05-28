@@ -1,6 +1,6 @@
 <template>
     <section class=" mt-20">
-        <div class="container space-y-[86px]">
+        <div class="container space-y-20">
             <div class="text-center space-y-9">
                 <h1 class="text-center text-4xl md:text-7xl text-white">
                     <span class="font-medium italic">
@@ -16,7 +16,7 @@
                 </p>
             </div>
             <div class="">
-                <form @submit="storeContactInfo" class="max-w-[639px] mx-auto">
+                <form @submit="storeContactInfo" class="max-w-2xl mx-auto">
                     <div class="space-y-9">
                         <form-input input-type="text" id="name" input-placeholder="Inserisci il nome"
                             input-label="Nome del tuo Club" v-model="formContact.clubName" />
@@ -39,10 +39,10 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-[105px]">
+        <div class="container  mt-24">
             <div class="bg-pale-blue py-12 flex items-center">
                 <img src="~/assets/images/contact-cta.png" alt="contact cta" class="p-0 hidden xl:inline" />
-                <div class="pl-8 xl:pl-[97px] pr-4 xl:max-w-[594px]">
+                <div class="pl-8 xl:pl-24 pr-4 xl:max-w-xl">
                     <h6 class=" text-3xl text-app-bg font-medium">PadelDao Pitch</h6>
                     <p class=" text-2xl font-medium text-slate-teal mt-5">
                         Vuoi scoprire di più su di noi? Qui potrai esplorare il nostro progetto, scoprire
