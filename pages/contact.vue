@@ -44,7 +44,7 @@
                 <img src="~/assets/images/contact-cta.png" alt="contact cta" class="p-0 hidden xl:inline" />
                 <div class="pl-8 xl:pl-[97px] pr-4 xl:max-w-[594px]">
                     <h6 class=" text-3xl text-app-bg font-medium">PadelDao Pitch</h6>
-                    <p class=" text-2xl font-medium text-[#4D696D] mt-5">
+                    <p class=" text-2xl font-medium text-slate-teal mt-5">
                         Vuoi scoprire di più su di noi? Qui potrai esplorare il nostro progetto, scoprire
                         la nostra mission e vision, capire perché
                         per unirti a noi e conoscere le soluzioni

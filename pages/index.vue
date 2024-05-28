@@ -77,7 +77,7 @@
     <section class="mt-40 lg:mt-32 pt-11 pb-16 border border-white border-l-0 border-r-0 border-opacity-25">
         <vue3-marquee :clone="true" :duration="20" :direction="'reverse'" :pause-on-hover="true"
             @onOverflowCleared="alert()" class=" overflow-y-hidden">
-            <div class="text-white font-medium text-4xl md:text-6xl lg:text-[86px] flex items-center gap-5 italic hover:text-[#4D696D] hover:not-italic mr-10 transition duration-200 ease-linear"
+            <div class="text-white font-medium text-4xl md:text-6xl lg:text-[86px] flex items-center gap-5 italic hover:text-slate-teal hover:not-italic mr-10 transition duration-200 ease-linear"
                 v-for="text in marqueText" :key="text">
                 {{ text }}
                 <icon-arrow-right-large class="w-12 h-12 md:w-24 md:h-24 lg:w-24 lg:h-24" />
@@ -318,7 +318,7 @@
                             class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Come diventare partner PadelDAO? Ha un costo?
                             <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
+                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
                                 <icon-plus class="size-6 group-open:hidden" />
                                 <icon-minus class="size-6 hidden group-open:inline" />
                             </span>
@@ -332,7 +332,7 @@
                             class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Che cos'è e che vantaggi ha una Membership Card?
                             <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
+                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
                                 <icon-plus class="size-6 group-open:hidden" />
                                 <icon-minus class="size-6 hidden group-open:inline" />
                             </span>
@@ -346,7 +346,7 @@
                             class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Quali servizi offre PadelDAO per i club partner?
                             <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
+                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
                                 <icon-plus class="size-6 group-open:hidden" />
                                 <icon-minus class="size-6 hidden group-open:inline" />
                             </span>
@@ -360,7 +360,7 @@
                             class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Cos’è il Clinic Journey?
                             <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
+                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
                                 <icon-plus class="size-6 group-open:hidden" />
                                 <icon-minus class="size-6 hidden group-open:inline" />
                             </span>
@@ -374,7 +374,7 @@
                             class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Cos’è lo Study & Play?
                             <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
+                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
                                 <icon-plus class="size-6 group-open:hidden" />
                                 <icon-minus class="size-6 hidden group-open:inline" />
                             </span>
@@ -388,7 +388,7 @@
                             class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
                             Altre domande?
                             <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-[#00282E] shrink-0">
+                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
                                 <icon-plus class="size-6 group-open:hidden" />
                                 <icon-minus class="size-6 hidden group-open:inline" />
                             </span>

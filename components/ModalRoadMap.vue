@@ -40,7 +40,7 @@
                                                 UPCOMING
                                             </span>
                                         </span>
-                                        <p class="text-[#4D696D] text-base max-w-[371px]">Il primo step prevede la
+                                        <p class="text-slate-teal text-base max-w-[371px]">Il primo step prevede la
                                             creazione
                                             degli NFT
                                             Gen1
