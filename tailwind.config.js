@@ -18,6 +18,7 @@ export default {
         'deepest-teal': '#001214',
         'pale-blue': '#D3E2E8',
         'slate-teal': '#4D696D',
+        'pale-mint': '#FBFFF0',
       }
     },
     container:{

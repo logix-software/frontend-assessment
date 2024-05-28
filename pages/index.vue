@@ -170,7 +170,7 @@
                             <p class="text-base text-grayish-blue mt-2.5">
                                 Il nostro obiettivo è selezionare esclusivamente i migliori club al mondo.
                             </p>
-                            <img src="~/assets/images/group.png" alt=" group" class="mt-7">
+                            <img src="~/assets/images/group.png" alt=" group" class="mt-2">
                         </div>
                     </div>
                     <div class=" basis-9/12">
@@ -313,82 +313,12 @@
                     </h4>
                 </div>
                 <div class=" divide-y divide-[#B2BEC0] flex-1 lg:ml-16">
-                    <details class="py-8 appearance-none group">
+                    <details class="py-8 appearance-none group" v-for="faq in faqs" :key="faq.question">
                         <summary
                             class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
-                            Come diventare partner PadelDAO? Ha un costo?
+                            {{ faq.question }}
                             <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
-                                <icon-plus class="size-6 group-open:hidden" />
-                                <icon-minus class="size-6 hidden group-open:inline" />
-                            </span>
-                        </summary>
-                        <p class=" text-xl font-medium p-4 text-app-bg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ducimus!
-                        </p>
-                    </details>
-                    <details class="py-8 appearance-none group">
-                        <summary
-                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
-                            Che cos'è e che vantaggi ha una Membership Card?
-                            <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
-                                <icon-plus class="size-6 group-open:hidden" />
-                                <icon-minus class="size-6 hidden group-open:inline" />
-                            </span>
-                        </summary>
-                        <p class=" text-xl font-medium p-4 text-app-bg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ducimus!
-                        </p>
-                    </details>
-                    <details class="py-8 appearance-none group">
-                        <summary
-                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
-                            Quali servizi offre PadelDAO per i club partner?
-                            <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
-                                <icon-plus class="size-6 group-open:hidden" />
-                                <icon-minus class="size-6 hidden group-open:inline" />
-                            </span>
-                        </summary>
-                        <p class=" text-xl font-medium p-4 text-app-bg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ducimus!
-                        </p>
-                    </details>
-                    <details class="py-8 appearance-none group">
-                        <summary
-                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
-                            Cos’è il Clinic Journey?
-                            <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
-                                <icon-plus class="size-6 group-open:hidden" />
-                                <icon-minus class="size-6 hidden group-open:inline" />
-                            </span>
-                        </summary>
-                        <p class=" text-xl font-medium p-4 text-app-bg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ducimus!
-                        </p>
-                    </details>
-                    <details class="py-8 appearance-none group">
-                        <summary
-                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
-                            Cos’è lo Study & Play?
-                            <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
-                                <icon-plus class="size-6 group-open:hidden" />
-                                <icon-minus class="size-6 hidden group-open:inline" />
-                            </span>
-                        </summary>
-                        <p class=" text-xl font-medium p-4 text-app-bg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ducimus!
-                        </p>
-                    </details>
-                    <details class="py-8 appearance-none group">
-                        <summary
-                            class=" gap-4 font-medium text-2xl md:text-3xl text-app-bg flex justify-between items-center list-none cursor-pointer">
-                            Altre domande?
-                            <span
-                                class=" size-11 inline-flex items-center justify-center bg-[#FBFFF0] text-app-bg shrink-0">
+                                class=" size-11 inline-flex items-center justify-center bg-pale-mint text-app-bg shrink-0">
                                 <icon-plus class="size-6 group-open:hidden" />
                                 <icon-minus class="size-6 hidden group-open:inline" />
                             </span>
@@ -508,6 +438,32 @@ const sliderContents = [
             title: 'Monza, Italia',
             subTitle: 'Vimercate'
         },
+    },
+]
+const faqs = [
+    {
+        question: 'Come diventare partner PadelDAO? Ha un costo?',
+        ans: ''
+    },
+    {
+        question: `Che cos'è e che vantaggi ha una Membership Card? `,
+        ans: ''
+    },
+    {
+        question: `Quali servizi offre PadelDAO per i club partner?`,
+        ans: ''
+    },
+    {
+        question: `Cos’è il Clinic Journey?`,
+        ans: ''
+    },
+    {
+        question: `Cos’è lo Study & Play?`,
+        ans: ''
+    },
+    {
+        question: `Altre domande?`,
+        ans: ''
     },
 ]
 
