@@ -88,7 +88,7 @@
     <!-- partner section -->
     <section class="mt-40">
         <div class="container ">
-            <div class="bg-[#1A3E43] relative  py-8" data-aos="fade-up">
+            <div class="bg-oceanic-blue relative  py-8" data-aos="fade-up">
                 <div
                     class="text-4xl lg:text-3xl  xl:text-5xl lg:!leading-[56px] pt-20 pb-16 pl-4 md:pl-14 text-grayish-blue relative">
                     <span
@@ -275,11 +275,11 @@
                 <div class="flex items-center gap-3 ml-auto">
                     <button @click="swiperEl.slidePrev()"
                         class="size-16 inline-flex items-center justify-center text-white hover:bg-primary transition duration-200 ease-linear bg-deepest-teal">
-                        <icon-arrow-left class="h-[25px] w-[25px]" />
+                        <icon-arrow-left class="h-6 w-6" />
                     </button>
                     <button @click="swiperEl.slideNext()"
                         class="size-16 inline-flex items-center justify-center text-white hover:bg-primary transition duration-200 ease-linear bg-deepest-teal">
-                        <icon-arrow-right class="h-[25px] w-[25px]" />
+                        <icon-arrow-right class="h-6 w-6" />
                     </button>
                 </div>
             </div>
@@ -288,7 +288,7 @@
                     class="mySwiper" @swiper="initializeSwiper">
                     <swiper-slide v-for="({ badgeTitle, location }, idx) in sliderContents" :key="idx">
                         <div
-                            class="py-5 px-6 bg-[#001E23] space-y-2.5 bg-[url('~/assets/images/slider-map.svg')] bg-no-repeat h-[345px] bg-right-bottom w-full">
+                            class="py-5 px-6 bg-inky-teal space-y-2.5 bg-[url('~/assets/images/slider-map.svg')] bg-no-repeat h-[345px] bg-right-bottom w-full">
                             <span
                                 class="inline-block bg-secondary text-app-bg rotate-[-3.27deg] text-2xl lg:text-3xl py-1 px-2"
                                 v-text="badgeTitle" />
@@ -340,7 +340,7 @@
                     SEI PRONTO PER IL <span class=" italic font-medium">PROSSIMO LIVELLO?</span> <br>
                     IL TUO CLUB MERITA DI <span class=" italic font-medium">DISTINGUERSI</span> <br> A LIVELLO GLOBALE.
                 </h5>
-                <p class=" text-xl lg:text-3xl text-[#335358] mt-8">
+                <p class=" text-xl lg:text-3xl text-ocean-teal mt-8">
                     Organizziamo un incontro per parlare dei dettagli della nostra partnership
                     ed esplorare insieme le possibilità di collaborazione.
                 </p>
