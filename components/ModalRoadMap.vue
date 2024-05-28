@@ -28,19 +28,21 @@
                                 </button>
 
                             </DialogTitle>
-                            <div class="pt-9 px-10 overflow-x-auto md:overflow-x-hidden">
+                            <div class="pt-28 px-7 md:px-10 ">
 
-                                <div class="min-h-72 border-l border-l-app-bg pl-6 py-14 translate-x-0"
-                                    :style="translateFromLeft">
+                                <div class=" min-h-40 md:min-h-72 md:border-l border-l-app-bg md:pl-6 " :style="{
+        'transform': `translateX(${translateFromLeft}px)`
+    }">
                                     <div class="space-y-5">
                                         <span class="text-black text-2xl relative">
-                                            MEMBERSHIP NFT
+                                            MEMBERSHIP NFT {{ tabNo }}
                                             <span
-                                                class=" absolute -right-10 -top-10 rotate-[15deg] bg-pale-blue py-1 md:py-3 px-2 md:px-4 text-xl md:text-2xl text-app-bg">
+                                                class=" absolute right-0 sm:-right-16 -top-10 xl:-right-32 xl:-top-8 sm:-top-12 rotate-[15deg] bg-pale-blue py-1 md:py-2 px-1 md:px-3 text-base sm:text-xl md:text-2xl text-app-bg">
                                                 UPCOMING
                                             </span>
                                         </span>
-                                        <p class="text-slate-teal text-base max-w-96">Il primo step prevede la
+                                        <p class="text-slate-teal text-base max-w-96 ">Il primo step prevede
+                                            la
                                             creazione
                                             degli NFT
                                             Gen1
@@ -51,8 +53,9 @@
 
                                 <div
                                     class="mt-8 after:h-[1px] after:hidden after:w-full after:bg-app-bg lg:after:block after:top-1/2 transform -translate-y-1/2 after:absolute after:-z-10">
-                                    <div class="flex items-center  pl-11 gap-9">
-                                        <button v-for="tab in tabs" :key="tab.id" @click="tabNo = tab.id"
+                                    <div class="flex items-center  md:pl-11 gap-6 md:gap-9" ref="tabContainer">
+                                        <button :ref="(el) => setTabRefs(el, index)" v-for="(tab, index) in tabs"
+                                            :key="tab.id" @click="($el) => setTab($el, tab.id)"
                                             class="size-6 rounded-full border border-app-bg bg-white inline-flex items-center justify-center shrink-0">
                                             <span class="size-3 rounded-full bg-secondary block"
                                                 v-if="tabNo === tab.id" />
@@ -83,7 +86,7 @@ import {
 } from '@headlessui/vue'
 
 // props
-defineProps({
+const props = defineProps({
     isOpen: {
         type: Boolean,
         default: false
@@ -91,6 +94,7 @@ defineProps({
 })
 
 // state
+const tabRefs = ref([]);
 const tabNo = ref(1)
 const tabs = Array.from({ length: 5 }, (_, index) => ({
     id: index + 1,
@@ -101,7 +105,47 @@ const tabs = Array.from({ length: 5 }, (_, index) => ({
 defineEmits(['closeModal'])
 
 // computed
-const translateFromLeft = computed(() => ({
-    transform: `translateX(${56 * tabNo.value}px)`
-}))
+const translateFromLeft = ref(0)
+
+
+// methods
+function setTabRefs(el, index) {
+    tabRefs.value[index] = el;
+    console.log({ tabRefs })
+};
+
+function setTab($el, tabId) {
+    tabNo.value = tabId;
+
+    if (window.matchMedia("(min-width: 768px)").matches) {
+        const tabIndex = tabId - 1
+        setTranslateFromLeft(tabIndex);
+    } else {
+        translateFromLeft.value = 0
+    }
+
+}
+
+function setTranslateFromLeft(tabIndex) {
+    const tabOffsetLeft = Number(tabRefs.value[tabIndex]?.offsetLeft);
+    const tabCenter = Number(tabRefs.value[tabIndex]?.offsetWidth) / 2;
+    const translateX = tabOffsetLeft + tabCenter;
+    translateFromLeft.value = translateX;
+}
+
+// watchers
+watch(() => props.isOpen, (val) => {
+    nextTick(() => {
+        setTranslateFromLeft(tabNo.value - 1)
+    })
+})
+
+// lifecycles
+onMounted(() => {
+    window.addEventListener('resize', function () {
+        translateFromLeft.value = 0
+    })
+})
+
+
 </script>
