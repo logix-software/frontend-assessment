@@ -1,6 +1,6 @@
 <template>
     <div
-        class="fixed bottom-12 right-4 md:right-12 z-10 flex flex-wrap gap-4 justify-between bg-white p-7 max-w-[250px] md:max-w-[600px] lg:max-w-[816px]">
+        class="fixed bottom-12 right-0 md:right-12 z-10 flex flex-wrap gap-4 justify-between bg-white p-7 max-w-full sm:max-w-xl lg:max-w-[816px]">
         <div class="flex items-start md:items-center gap-4">
             <!-- <icon-cookie class="h-[48px] w-[48px]" /> -->
 
@@ -11,7 +11,7 @@
                 la tua esperienza e analizzare il traffico del sito.
             </p>
         </div>
-        <div class="flex items-center flex-wrap">
+        <div class="flex items-center justify-center md:justify-normal flex-wrap">
             <nuxt-link class=" py-4 px-11 inline-flex text-base font-medium items-center justify-center text-app-bg"
                 to="/">
                 Rifiuta
