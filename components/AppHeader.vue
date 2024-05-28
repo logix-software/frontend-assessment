@@ -2,7 +2,7 @@
     <header class="py-3">
         <div class="container  flex items-center justify-between">
             <nuxt-link to="/">
-                <img src="/app-logo.svg" alt="app-logo">
+                <img src="~/assets/images/app-logo.svg" alt="app-logo">
             </nuxt-link>
             <div class="py-4 hidden lg:inline">
                 <ul class="flex items-center justify-center gap-7">

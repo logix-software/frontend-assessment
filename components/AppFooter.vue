@@ -3,7 +3,7 @@
         <div class="container flex items-end justify-between flex-wrap gap-6">
             <div class="space-y-4">
                 <nuxt-link to="/">
-                    <img src="/app-logo.svg" alt="app logo footer">
+                    <img src="~/assets/images/app-logo.svg" alt="app logo footer">
                 </nuxt-link>
                 <div>
                     <ul class="flex items-center gap-3">

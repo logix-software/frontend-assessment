@@ -29,16 +29,16 @@
                 </div>
             </div>
             <div class="flex items-center justify-center flex-wrap  mt-12 px-4 lg:px-0">
-                <img src="/hero-img-1.png" alt=" hero img-1" class="lg:-mr-24 lg:mt-20 lg:z-30" data-aos="zoom-in"
-                    data-aos-delay="50">
+                <img src="~/assets/images/hero-img-1.png" alt=" hero img-1" class="lg:-mr-24 lg:mt-20 lg:z-30"
+                    data-aos="zoom-in" data-aos-delay="50">
 
-                <img src="/hero-img-2.png" alt=" hero img-1" class="lg:-mr-10 lg:z-20" data-aos="zoom-in"
+                <img src="~/assets/images/hero-img-2.png" alt=" hero img-1" class="lg:-mr-10 lg:z-20" data-aos="zoom-in"
                     data-aos-delay="100">
 
-                <img src="/hero-img-3.png" alt=" hero img-1" class="lg:-mr-16 lg:mt-10 lg:z-10" data-aos="zoom-in"
-                    data-aos-delay="150">
+                <img src="~/assets/images/hero-img-3.png" alt=" hero img-1" class="lg:-mr-16 lg:mt-10 lg:z-10"
+                    data-aos="zoom-in" data-aos-delay="150">
 
-                <img src="/hero-img-4.png" alt=" hero img-1" data-aos="zoom-in" data-aos-delay="200">
+                <img src="~/assets/images/hero-img-4.png" alt=" hero img-1" data-aos="zoom-in" data-aos-delay="200">
             </div>
         </div>
     </section>
@@ -105,7 +105,7 @@
                     <b><em class="text-white">interessati alle innovazioni</em></b> <br>
                     web3. 
                 </div>
-                <img src="/partner.png" alt=""
+                <img src="~/assets/images/partner.png" alt=""
                     class="absolute -right-10 top-1/2 transform -translate-y-1/2 hidden lg:inline " />
             </div>
 
@@ -170,7 +170,7 @@
                             <p class="text-base text-[#99A9AB] mt-2.5">
                                 Il nostro obiettivo è selezionare esclusivamente i migliori club al mondo.
                             </p>
-                            <img src="/group.png" alt=" group" class="mt-7">
+                            <img src="~/assets/images/group.png" alt=" group" class="mt-7">
                         </div>
                     </div>
                     <div class=" basis-9/12">
@@ -191,7 +191,7 @@
                                     ospitati all’interno dei Club
                                     Partner.
                                 </p>
-                                <img src="/group-18.png" alt="" class=" mt-8 md:mt-16 mx-auto">
+                                <img src="~/assets/images/group-18.png" alt="" class=" mt-8 md:mt-16 mx-auto">
                             </div>
                             <div class="basis-6/12">
                                 <div class="text-center p-7">
@@ -207,7 +207,7 @@
                                     </p>
                                 </div>
 
-                                <img src="/group-19.png" alt="" class="w-full object-cover">
+                                <img src="~/assets/images/group-19.png" alt="" class="w-full object-cover">
                             </div>
                         </div>
                     </div>
@@ -227,7 +227,7 @@
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
                 <div data-aos="zoom-in" data-aos-delay="50">
-                    <img src="/gratuito.png" alt="gratuito" class="mx-auto">
+                    <img src="~/assets/images/gratuito.png" alt="gratuito" class="mx-auto">
                     <div class="text-center space-y-5 text-white -mt-10">
                         <p class=" font-medium text-4xl lg:text-5xl">Gratuito</p>
                         <p class=" md:text-lg">Nessun tipo di investimento <br>
@@ -235,7 +235,7 @@
                     </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-delay="100">
-                    <img src="/benefit.png" alt="benefit" class="mx-auto">
+                    <img src="~/assets/images/benefit.png" alt="benefit" class="mx-auto">
                     <div class="text-center space-y-5 text-white -mt-10">
                         <p class=" font-medium text-4xl lg:text-5xl">Benefit</p>
                         <p class=" text-lg">
@@ -245,7 +245,7 @@
                     </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-delay="150">
-                    <img src="/standard.png" alt="standard" class="mx-auto">
+                    <img src="~/assets/images/standard.png" alt="standard" class="mx-auto">
                     <div class="text-center space-y-5 text-white -mt-10">
                         <p class=" font-medium text-4xl lg:text-5xl">Standard</p>
                         <p class=" text-lg">
