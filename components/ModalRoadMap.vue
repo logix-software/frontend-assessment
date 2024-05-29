@@ -116,21 +116,21 @@ function setTabRefs(el, index) {
 
 function setTab($el, tabId) {
     tabNo.value = tabId;
+    const tabIndex = tabId - 1
+    setTranslateFromLeft(tabIndex);
 
-    if (window.matchMedia("(min-width: 768px)").matches) {
-        const tabIndex = tabId - 1
-        setTranslateFromLeft(tabIndex);
-    } else {
-        translateFromLeft.value = 0
-    }
 
 }
 
 function setTranslateFromLeft(tabIndex) {
-    const tabOffsetLeft = Number(tabRefs.value[tabIndex]?.offsetLeft);
-    const tabCenter = Number(tabRefs.value[tabIndex]?.offsetWidth) / 2;
-    const translateX = tabOffsetLeft + tabCenter;
-    translateFromLeft.value = translateX;
+    if (window.matchMedia("(min-width: 768px)").matches) {
+        const tabOffsetLeft = Number(tabRefs.value[tabIndex]?.offsetLeft);
+        const tabCenter = Number(tabRefs.value[tabIndex]?.offsetWidth) / 2;
+        const translateX = tabOffsetLeft + tabCenter;
+        translateFromLeft.value = translateX;
+    } else {
+        translateFromLeft.value = 0
+    }
 }
 
 // watchers

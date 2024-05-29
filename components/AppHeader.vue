@@ -55,7 +55,8 @@
         </div>
     </header>
     <modal-road-map :isOpen="isOpen" @close-modal="isOpen = false" />
-    <drawer-navbar :show-drawer="showDrawer" @close-drawer="showDrawer = false" @open-road-map-modal="isOpen = true" />
+    <drawer-navbar :show-drawer="showDrawer" @close-drawer="showDrawer = false"
+        @open-road-map-modal="openRoadmapModal" />
 </template>
 
 <script setup>
@@ -63,5 +64,11 @@
 // state
 const isOpen = ref(false);
 const showDrawer = ref(false);
+
+// methods
+function openRoadmapModal() {
+    isOpen.value = true;
+    showDrawer.value = false;
+}
 
 </script>
