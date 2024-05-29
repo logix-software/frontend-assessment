@@ -1,3 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-family: "Rethink Sans", sans-serif;
+    @apply bg-app-bg;
+  }
+
+  #__nuxt {
+    @apply !min-h-screen flex flex-col relative;
+  }
+}
+
+@layer utilities {
+  .study-play-bg {
+    @apply bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('~/assets/images/study-play.png')];
+  }
+  .clinic-journey-bg {
+    @apply bg-[linear-gradient(88deg,#00282E_47%,rgba(0,40,46,0)_100%),url('~/assets/images/clinic-journey.png')];
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-white text-[18px] font-medium hover:text-primary transition duration-200 ease-linear;
+  }
+  .nav-link--mobile {
+    @apply text-app-bg text-[18px] font-medium;
+  }
+  .footer-link {
+    @apply text-xs font-bold text-white hover:text-primary transition duration-200 ease-linear;
+  }
+  .btn-primary {
+    @apply bg-primary text-white py-4 px-7 inline-flex items-center justify-center gap-2 text-xl font-medium hover:bg-primary/90 transition duration-200 ease-linear;
+  }
+  .btn-primary--medium {
+    @apply bg-primary text-white py-4 px-10 inline-flex items-center justify-center gap-2 text-xl font-medium hover:bg-primary/90 transition duration-200 ease-linear;
+  }
+  .btn-primary--large {
+    @apply bg-primary text-white py-5 px-6 inline-flex items-center justify-center gap-2 text-xl font-medium hover:bg-primary/90 transition duration-200 ease-linear;
+  }
+  .btn-secondary {
+    @apply bg-deepest-teal py-5 px-10 inline-flex items-center justify-center gap-2 text-white text-lg font-medium hover:bg-deepest-teal/90 transition duration-200 ease-linear;
+  }
+  .btn-tertiary {
+    @apply py-4 md:py-5 lg:py-6 px-4 md:px-6 lg:px-8 inline-flex items-center justify-center gap-2 bg-white hover:bg-white/90 text-app-bg transition duration-200 ease-linear text-xl md:text-2xl lg:text-3xl font-bold;
+  }
+}

@@ -1,0 +1,33 @@
+<template>
+    <footer class="mt-auto py-8">
+        <div class="container flex items-end justify-between flex-wrap gap-6">
+            <div class="space-y-4">
+                <nuxt-link to="/">
+                    <img src="~/assets/images/app-logo.svg" alt="app logo footer">
+                </nuxt-link>
+                <div>
+                    <ul class="flex items-center gap-3">
+                        <li>
+                            <nuxt-link to="/" class="footer-link">
+                                Contact
+                            </nuxt-link>
+                        </li>
+                        <li>
+                            <nuxt-link to="/" class="footer-link">
+                                Privacy policy
+                            </nuxt-link>
+                        </li>
+                        <li>
+                            <nuxt-link to="/" class="footer-link">
+                                Terms
+                            </nuxt-link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <small class="text-xs text-white">Copyright © 2024 PadelDao. All rights reserved</small>
+            </div>
+        </div>
+    </footer>
+</template>
